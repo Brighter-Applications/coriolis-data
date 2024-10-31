@@ -1896,8 +1896,90 @@
   },
   "rfl": {
     "blueprints": {
+      "Decorative_Red": {
+        "grades": {
+          "5": {
+            "engineers": [
+              "None"
+            ]
+          }
+        }
+      },
+      "Decorative_Green": {
+        "grades": {
+          "5": {
+            "engineers": [
+              "None"
+            ]
+          }
+        }
+      },
+      "Decorative_Pink": {
+        "grades": {
+          "5": {
+            "engineers": [
+              "None"
+            ]
+          }
+        }
+      },
+      "Decorative_Yellow": {
+        "grades": {
+          "5": {
+            "engineers": [
+              "None"
+            ]
+          }
+        }
+      }
     },
     "modifications": [
+      "damagepersecond",
+      "damage"
+    ]
+  },
+  "prerfl": {
+    "blueprints": {
+      "Decorative_Red": {
+        "grades": {
+          "5": {
+            "engineers": [
+              "None"
+            ]
+          }
+        }
+      },
+      "Decorative_Green": {
+        "grades": {
+          "5": {
+            "engineers": [
+              "None"
+            ]
+          }
+        }
+      },
+      "Decorative_Pink": {
+        "grades": {
+          "5": {
+            "engineers": [
+              "None"
+            ]
+          }
+        }
+      },
+      "Decorative_Yellow": {
+        "grades": {
+          "5": {
+            "engineers": [
+              "None"
+            ]
+          }
+        }
+      }
+    },
+    "modifications": [
+      "damagepersecond",
+      "damage"
     ]
   },
   "fh": {
@@ -4026,6 +4108,30 @@
   },
   "axmr": {
     "blueprints": {
+    },
+    "modifications": [
+    ]
+  },
+  "preaxmr": {
+    "blueprints": {
+      "Weapon_RapidFire": {
+        "grades": {
+          "5": {
+            "engineers": [
+              "None"
+            ]
+          }
+        }
+      },
+      "Weapon_HighCapacity": {
+        "grades": {
+          "5": {
+            "engineers": [
+              "None"
+            ]
+          }
+        }
+      }
     },
     "modifications": [
     ]

@@ -1,0 +1,72 @@
+{
+  "preaxmr": [
+    {
+      "ammo": 64,
+      "breachdmg": 0.1,
+      "breachmax": 0.8,
+      "breachmin": 1,
+      "class": 2,
+      "clip": 8,
+      "cost": 0,
+      "damage": 64,
+      "damagedist": {
+        "X": 1,
+        "E": 1
+      },
+      "distdraw": 0.14,
+      "edID": 12878869901,
+      "eddbID": 1614,
+      "falloff": 10000,
+      "fireint": 2.0,
+      "grp": "preaxmr",
+      "id": "4y",
+      "integrity": 51,
+      "mass": 4,
+      "missile": "D",
+      "mount": "F",
+      "name": "High Cap + Rapid Fire",
+      "blueprints": ["High Capacity", "Rapid Fire"],
+      "piercing": 60,
+      "power": 1.2,
+      "rating": "B",
+      "reload": 5,
+      "shotspeed": 750,
+      "thermload": 2.4,
+      "symbol": "Hpt_ATDumbfireMissile_Fixed_Medium"
+    },
+    {
+      "ammo": 128,
+      "breachdmg": 0.1,
+      "breachmax": 0.8,
+      "breachmin": 1,
+      "class": 3,
+      "clip": 12,
+      "cost": 0,
+      "damage": 64,
+      "damagedist": {
+        "X": 1,
+        "E": 1
+      },
+      "distdraw": 0.24,
+      "edID": 12878870001,
+      "eddbID": 1623,
+      "falloff": 10000,
+      "fireint": 2.0,
+      "grp": "preaxmr",
+      "id": "4z",
+      "integrity": 64,
+      "mass": 8,
+      "missile": "D",
+      "mount": "F",
+      "name": "High Cap + Rapid Fire",
+      "blueprints": ["High Capacity", "Rapid Fire"],
+      "piercing": 60,
+      "power": 1.62,
+      "rating": "A",
+      "reload": 5,
+      "shotspeed": 750,
+      "thermload": 3.6,
+      "symbol": "Hpt_ATDumbfireMissile_Fixed_Large"
+    }
+  ]
+}

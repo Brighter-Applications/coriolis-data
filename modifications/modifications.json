@@ -8,6 +8,7 @@
     "clip": {"id": 4, "name": "clip", "type": "percentage", "method": "multiplicative", "higherbetter": true},
     "damage": {"id": 5, "name": "damage", "type": "percentage", "method": "multiplicative", "higherbetter": true},
     "damagedist": {"id": 40, "name": "damage", "type": "object", "hidden": true, "method": "overwrite"},
+    "damagepersecond": {"id": 56, "name": "damagepersecond", "type": "object", "hidden": true, "method": "overwrite", "higherbetter": true},
     "distdraw": {"id": 6, "name": "distdraw", "type": "percentage", "method": "multiplicative", "higherbetter": false},
     "duration": {"id": 7, "name": "duration", "type": "percentage", "method": "multiplicative", "higherbetter": true},
     "eff": {"id": 8, "name": "eff", "type": "percentage", "method": "multiplicative", "higherbetter": false},

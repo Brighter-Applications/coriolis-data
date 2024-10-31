@@ -9818,5 +9818,101 @@
       "Weapon"
     ],
     "name": "Sturdy"
+  },
+  "Decorative_Red": {
+    "fdname": "Decorative_Red",
+    "grades": {
+      "5": {
+        "components": {},
+        "features": {
+          "damagepersecond": [
+            17.000000,
+            0.170000
+          ],
+          "damage": [
+            34.000000,
+            0.340000
+          ]
+        },
+        "uuid": "c9f942b3-87fc-4edc-9cdb-a1ad0281dd7a"
+      }
+    },
+    "id": 94,
+    "modulename": [
+      "remote release flak launcher"
+    ],
+    "name": "Decorative Red"
+  },
+  "Decorative_Green": {
+    "fdname": "Decorative_Green",
+    "grades": {
+      "5": {
+        "components": {},
+        "features": {
+          "damagepersecond": [
+            17.000000,
+            0.170000
+          ],
+          "damage": [
+            34.000000,
+            0.340000
+          ]
+        },
+        "uuid": "6e928de7-214d-4c5e-b5ad-b48b0c4a68c4"
+      }
+    },
+    "id": 95,
+    "modulename": [
+      "remote release flak launcher"
+    ],
+    "name": "Decorative Green"
+  },
+  "Decorative_Pink": {
+    "fdname": "Decorative_Pink",
+    "grades": {
+      "5": {
+        "components": {},
+        "features": {
+          "damagepersecond": [
+            17.000000,
+            0.170000
+          ],
+          "damage": [
+            34.000000,
+            0.340000
+          ]
+        },
+        "uuid": "383332ba-f868-4d8e-bf2b-5649f1b76012"
+      }
+    },
+    "id": 96,
+    "modulename": [
+      "remote release flak launcher"
+    ],
+    "name": "Decorative Pink"
+  },
+  "Decorative_Yellow": {
+    "fdname": "Decorative_Yellow",
+    "grades": {
+      "5": {
+        "components": {},
+        "features": {
+          "damagepersecond": [
+            17.000000,
+            0.170000
+          ],
+          "damage": [
+            34.000000,
+            0.340000
+          ]
+        },
+        "uuid": "f92e2c74-5249-4183-8966-da4a54ee5a5f"
+      }
+    },
+    "id": 97,
+    "modulename": [
+      "remote release flak launcher"
+    ],
+    "name": "Decorative Yellow"
   }
 }
