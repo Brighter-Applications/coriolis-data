@@ -357,7 +357,7 @@
       "class": 2,
       "clip": 9,
       "cost": 314620,
-      "damage": 7.42,
+      "damage": 14.6,
       "damagedist": {
         "K": 1
       },
@@ -379,6 +379,7 @@
       "rating": "D",
       "reload": 4,
       "shotspeed": 1300,
+      "thermload": 1.9,
       "symbol": "Hpt_Cannon_Gimbal_Medium_Burst"
     }
   ]
