@@ -8,7 +8,7 @@
         "breachmin": 1,
         "class": 2,
         "clip": 8,
-        "cost": 681530,
+        "cost": 681534,
         "damage": 77,
         "damagedist": {
           "X": 1,
@@ -40,7 +40,7 @@
         "breachmin": 1,
         "class": 2,
         "clip": 8,
-        "cost": 2666290,
+        "cost": 2666286,
         "damage": 64,
         "damagedist": {
           "X": 1,
@@ -72,7 +72,7 @@
         "breachmin": 1,
         "class": 3,
         "clip": 12,
-        "cost": 1703830,
+        "cost": 1703835,
         "damage": 77,
         "damagedist": {
           "X": 1,
@@ -104,7 +104,7 @@
         "breachmin": 1,
         "class": 3,
         "clip": 12,
-        "cost": 5347530,
+        "cost": 5347534,
         "damage": 64,
         "damagedist": {
           "X": 1,
