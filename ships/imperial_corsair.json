@@ -1,6 +1,6 @@
 {
   "imperial_corsair": {
-    "edID": 129031321,
+    "edID": 0,
     "eddbID": 0,
     "properties": {
       "name": "Imperial Corsair",
@@ -31,7 +31,7 @@
     "bulkheads": [
       {
         "id": "bf",
-        "edID": 129031322,
+        "edID": 0,
         "eddbID": 0,
         "grp": "bh",
         "cost": 0,
@@ -44,7 +44,7 @@
       },
       {
         "id": "bg",
-        "edID": 129031323,
+        "edID": 0,
         "eddbID": 0,
         "grp": "bh",
         "cost": 31721900,
@@ -57,7 +57,7 @@
       },
       {
         "id": "bh",
-        "edID": 129031324,
+        "edID": 0,
         "eddbID": 0,
         "grp": "bh",
         "cost": 71374270,
@@ -70,7 +70,7 @@
       },
       {
         "id": "bi",
-        "edID": 129031325,
+        "edID": 0,
         "eddbID": 0,
         "grp": "bh",
         "cost": 166539970,
@@ -83,7 +83,7 @@
       },
       {
         "id": "bj",
-        "edID": 129031326,
+        "edID": 0,
         "eddbID": 0,
         "grp": "bh",
         "cost": 186921290,
