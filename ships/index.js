@@ -31,6 +31,7 @@ module.exports = {
   orca: require('./orca').orca,
   mamba: require('./mamba').mamba,
   mandalay: require('./mandalay').mandalay,
+  panthermkii: require('./panther_clipper').panthermkii,
   python: require('./python').python,
   python_nx: require('./python_nx').python_nx,
   sidewinder: require('./sidewinder').sidewinder,
