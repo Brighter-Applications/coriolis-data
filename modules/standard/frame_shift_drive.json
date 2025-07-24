@@ -381,6 +381,31 @@
       "ukDiscript": "Device that allows supercruise travel and hyperspace jumps between star systems."
     },
     {
+      "class": 5,
+      "cost": 0,
+      "fuelmul": 0.012,
+      "fuelpower": 2.45,
+      "grp": "fsd",
+      "id": "5O",
+      "integrity": 120,
+      "mass": 20,
+      "maxfuel": 5,
+      "optmass": 1050,
+      "power": 0.6,
+      "rating": "A",
+      "symbol": "Int_Hyperdrive_Size5_Class5",
+      "ukName": "V1 Frame Shift Drive",
+      "name": "V1 Frame Shift Drive",
+      "ukDiscript": "A pre-engineered Frame Shift Drive that combines increased range with a faster boot sequence. This module cannot be further engineered, but an experimental effect can be applied.",
+      "preEngineered": {
+        "reengineerable": false,
+        "gradeChangeable": false,
+        "blueprints": ["FSD_LongRange", "FSD_FastBoot"],
+        "canApplyExperimental": true,
+        "description": "This module has been pre-engineered with Grade 5 Increased Range and Faster Boot Sequence modifications."
+      }
+    },
+    {
       "class": 4,
       "cost": 19878,
       "edID": 128064113,
@@ -761,6 +786,31 @@
       "ukDiscript": "Faster-than-light capable ship drive, featuring experimental overcharge capabilities, necessary for supercruise travel and hyperspace jumps between star systems."
     },
     {
+      "class": 7,
+      "boot": 2,
+      "fuelmul": 0.013,
+      "fuelpower": 2.75,
+      "grp": "fsd",
+      "id": "5P",
+      "name": "V1 Frame Shift Drive (SCO)",
+      "integrity": 164,
+      "mass": 80,
+      "maxfuel": 13.1,
+      "optmass": 3000,
+      "power": 0.9,
+      "rating": "A",
+      "symbol": "Int_Hyperdrive_Overcharge_Size7_Class5",
+      "ukName": "V1 Frame Shift Drive (SCO)",
+      "preEngineered": {
+        "reengineerable": false,
+        "gradeChangeable": false,
+        "blueprints": ["FSD_LongRange", "FSD_FastBoot"],
+        "canApplyExperimental": true,
+        "description": "This module has been pre-engineered with Grade 5 Increased Range and Faster Boot Sequence modifications."
+      },
+      "ukDiscript": "A pre-engineered Frame Shift Drive that combines increased range with a faster boot sequence. This module cannot be further engineered, but an experimental effect can be applied."
+    },
+    {
       "class": 6,
       "cost": 19415437,
       "edID": 129030596,
@@ -854,6 +904,31 @@
       "symbol": "Int_Hyperdrive_Overcharge_Size6_Class1",
       "ukName": "FSD",
       "ukDiscript": "Faster-than-light capable ship drive, featuring experimental overcharge capabilities, necessary for supercruise travel and hyperspace jumps between star systems."
+    },
+    {
+      "class": 6,
+      "boot": 2,
+      "fuelmul": 0.013,
+      "fuelpower": 2.6,
+      "grp": "fsd",
+      "id": "5Q",
+      "name": "Frame Shift Drive (SCO) V1",
+      "integrity": 141,
+      "mass": 40,
+      "maxfuel": 8.3,
+      "optmass": 2000,
+      "power": 0.75,
+      "rating": "A",
+      "symbol": "Int_Hyperdrive_Overcharge_Size6_Class5",
+      "ukName": "Frame Shift Drive (SCO) V1",
+      "preEngineered": {
+        "reengineerable": false,
+        "gradeChangeable": false,
+        "blueprints": ["FSD_LongRange", "FSD_FastBoot"],
+        "canApplyExperimental": true,
+        "description": "This module has been pre-engineered with Grade 5 Increased Range and Faster Boot Sequence modifications."
+      },
+      "ukDiscript": "A pre-engineered Frame Shift Drive that combines increased range with a faster boot sequence. This module cannot be further engineered, but an experimental effect can be applied."
     },
     {
       "class": 5,
@@ -951,6 +1026,31 @@
       "ukDiscript": "Faster-than-light capable ship drive, featuring experimental overcharge capabilities, necessary for supercruise travel and hyperspace jumps between star systems."
     },
     {
+      "class": 5,
+      "boot": 2,
+      "fuelmul": 0.012,
+      "fuelpower": 2.45,
+      "grp": "fsd",
+      "id": "5R",
+      "name": "Frame Shift Drive (SCO) V1",
+      "integrity": 120,
+      "mass": 20,
+      "maxfuel": 5.2,
+      "optmass": 1175,
+      "power": 0.6,
+      "rating": "A",
+      "symbol": "Int_Hyperdrive_Overcharge_Size5_Class5",
+      "ukName": "Frame Shift Drive (SCO) V1",
+      "preEngineered": {
+        "reengineerable": false,
+        "gradeChangeable": false,
+        "blueprints": ["FSD_LongRange", "FSD_FastBoot"],
+        "canApplyExperimental": true,
+        "description": "This module has been pre-engineered with Grade 5 Increased Range and Faster Boot Sequence modifications."
+      },
+      "ukDiscript": "A pre-engineered Frame Shift Drive that combines increased range with a faster boot sequence. This module cannot be further engineered, but an experimental effect can be applied."
+    },
+    {
       "class": 4,
       "cost": 1932096,
       "edID": 129030588,
@@ -1044,6 +1144,31 @@
       "symbol": "Int_Hyperdrive_Overcharge_Size4_Class1",
       "ukName": "FSD",
       "ukDiscript": "Faster-than-light capable ship drive, featuring experimental overcharge capabilities, necessary for supercruise travel and hyperspace jumps between star systems."
+    },
+    {
+      "class": 4,
+      "boot": 2,
+      "fuelmul": 0.013,
+      "fuelpower": 2.3,
+      "grp": "fsd",
+      "id": "5S",
+      "name": "Frame Shift Drive (SCO) V1",
+      "integrity": 100,
+      "mass": 10,
+      "maxfuel": 3.2,
+      "optmass": 585,
+      "power": 0.45,
+      "rating": "A",
+      "symbol": "Int_Hyperdrive_Overcharge_Size4_Class5",
+      "ukName": "Frame Shift Drive (SCO) V1",
+      "preEngineered": {
+        "reengineerable": false,
+        "gradeChangeable": false,
+        "blueprints": ["FSD_LongRange", "FSD_FastBoot"],
+        "canApplyExperimental": true,
+        "description": "This module has been pre-engineered with Grade 5 Increased Range and Faster Boot Sequence modifications."
+      },
+      "ukDiscript": "A pre-engineered Frame Shift Drive that combines increased range with a faster boot sequence. This module cannot be further engineered, but an experimental effect can be applied."
     },
     {
       "class": 3,
@@ -1141,6 +1266,31 @@
       "ukDiscript": "Faster-than-light capable ship drive, featuring experimental overcharge capabilities, necessary for supercruise travel and hyperspace jumps between star systems."
     },
     {
+      "class": 3,
+      "boot": 2,
+      "fuelmul": 0.013,
+      "fuelpower": 2.15,
+      "grp": "fsd",
+      "id": "5T",
+      "name": "Frame Shift Drive (SCO) V1",
+      "integrity": 80,
+      "mass": 5,
+      "maxfuel": 1.9,
+      "optmass": 167,
+      "power": 0.45,
+      "rating": "A",
+      "symbol": "Int_Hyperdrive_Overcharge_Size3_Class5",
+      "ukName": "Frame Shift Drive (SCO) V1",
+      "preEngineered": {
+        "reengineerable": false,
+        "gradeChangeable": false,
+        "blueprints": ["FSD_LongRange", "FSD_FastBoot"],
+        "canApplyExperimental": true,
+        "description": "This module has been pre-engineered with Grade 5 Increased Range and Faster Boot Sequence modifications."
+      },
+      "ukDiscript": "A pre-engineered Frame Shift Drive that combines increased range with a faster boot sequence. This module cannot be further engineered, but an experimental effect can be applied."
+    },
+    {
       "class": 2,
       "cost": 192269,
       "edID": 129030580,
@@ -1234,6 +1384,31 @@
       "symbol": "Int_Hyperdrive_Overcharge_Size2_Class1",
       "ukName": "FSD",
       "ukDiscript": "Faster-than-light capable ship drive, featuring experimental overcharge capabilities, necessary for supercruise travel and hyperspace jumps between star systems."
+    },
+    {
+      "class": 2,
+      "boot": 2,
+      "fuelmul": 0.013,
+      "fuelpower": 2.0,
+      "grp": "fsd",
+      "id": "5U",
+      "name": "Frame Shift Drive (SCO) V1",
+      "integrity": 64,
+      "mass": 2.5,
+      "maxfuel": 1,
+      "optmass": 100,
+      "power": 0.3,
+      "rating": "A",
+      "symbol": "Int_Hyperdrive_Overcharge_Size2_Class5",
+      "ukName": "Frame Shift Drive (SCO) V1",
+      "preEngineered": {
+        "reengineerable": false,
+        "gradeChangeable": false,
+        "blueprints": ["FSD_LongRange", "FSD_FastBoot"],
+        "canApplyExperimental": true,
+        "description": "This module has been pre-engineered with Grade 5 Increased Range and Faster Boot Sequence modifications."
+      },
+      "ukDiscript": "A pre-engineered Frame Shift Drive that combines increased range with a faster boot sequence. This module cannot be further engineered, but an experimental effect can be applied."
     },
     {
       "class": 0,
