@@ -376,6 +376,45 @@
       "shotspeed": 1600,
       "thermload": 0.51,
       "symbol": "Hpt_MultiCannon_Gimbal_Huge"
+    },
+    {
+      "ammo": 4706,
+      "breachdmg": 2,
+      "breachmax": 0.8,
+      "breachmin": 0.4,
+      "class": 2,
+      "clip": 294,
+      "cost": 0,
+      "damage": 2.15,
+      "damagedist": {
+        "K": 1
+      },
+      "distdraw": 0.11,
+      "falloff": 1800,
+      "fireint": 0.1115,
+      "grp": "mc",
+      "id": "6D",
+      "integrity": 51,
+      "mass": 3.33,
+      "mount": "F",
+      "preEngineered": {
+        "reengineerable": false,
+        "gradeChangeable": false,
+        "blueprints": ["Weapon_HighCapacity", "Weapon_RapidFire"],
+        "canApplyExperimental": false,
+        "experimentalEffects": ["special_phasing_sequence"],
+        "description": "This module has been pre-engineered with Grade 5 High Cap & Rapid Fire modifications, and Phasing Sequence Experimental Effect.",
+        "availability": "CG"
+      },
+      "name": "Multi-Cannon (High Capacity + Rapid Fire + Phasing Sequence)",
+      "piercing": 37,
+      "power": 0.46,
+      "range": 2000,
+      "rating": "E",
+      "reload": 5.33,
+      "shotspeed": 1600,
+      "thermload": 0.18,
+      "symbol": "Hpt_MultiCannon_Fixed_Medium"
     }
   ]
 }
