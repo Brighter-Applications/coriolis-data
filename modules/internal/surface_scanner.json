@@ -15,6 +15,27 @@
       "symbol": "Int_DetailedSurfaceScanner_Tiny",
       "ukName": "Surface Scanner",
       "ukDiscript": "Advanced stellar body scanner used during exploration."
+    },
+    {
+      "class": 1,
+      "cost": 0,
+      "grp": "ss",
+      "id": "5V",
+      "mass": 0,
+      "name": "Detailed Surface Scanner V1",
+      "power": 0,
+      "proberadius": 0.2,
+      "rating": "I",
+      "preEngineered": {
+        "reengineerable": false,
+        "gradeChangeable": false,
+        "blueprints": ["Sensor_Expanded"],
+        "canApplyExperimental": false,
+        "description": "This module has been pre-engineered with Grade 5 Expanded Probe Radius modifications."
+      },
+      "symbol": "Int_DetailedSurfaceScanner_Tiny",
+      "ukName": "Detailed Surface Scanner V1",
+      "ukDiscript": "Advanced stellar body scanner used during exploration."
     }
   ]
 }
