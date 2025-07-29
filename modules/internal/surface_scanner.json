@@ -30,6 +30,7 @@
         "reengineerable": false,
         "gradeChangeable": false,
         "blueprints": ["Sensor_Expanded"],
+        "grade": 1,
         "canApplyExperimental": false,
         "description": "This module has been pre-engineered with Grade 5 Expanded Probe Radius modifications."
       },

@@ -395,12 +395,13 @@
       "rating": "A",
       "symbol": "Int_Hyperdrive_Size5_Class5",
       "ukName": "V1 Frame Shift Drive",
-      "name": "V1 Frame Shift Drive",
+      "name": "Frame Shift Drive PreEng (V1)",
       "ukDiscript": "A pre-engineered Frame Shift Drive that combines increased range with a faster boot sequence. This module cannot be further engineered, but an experimental effect can be applied.",
       "preEngineered": {
         "reengineerable": false,
         "gradeChangeable": false,
         "blueprints": ["FSD_LongRange", "FSD_FastBoot"],
+        "grade": 5,
         "canApplyExperimental": true,
         "description": "This module has been pre-engineered with Grade 5 Increased Range and Faster Boot Sequence modifications."
       }
@@ -805,6 +806,7 @@
         "reengineerable": false,
         "gradeChangeable": false,
         "blueprints": ["FSD_LongRange", "FSD_FastBoot"],
+        "grade": 5,
         "canApplyExperimental": true,
         "description": "This module has been pre-engineered with Grade 5 Increased Range and Faster Boot Sequence modifications."
       },
@@ -912,7 +914,7 @@
       "fuelpower": 2.6,
       "grp": "fsd",
       "id": "5Q",
-      "name": "Frame Shift Drive (SCO) V1",
+      "name": "FSD (SCO) PreEng (V1)",
       "integrity": 141,
       "mass": 40,
       "maxfuel": 8.3,
@@ -925,6 +927,7 @@
         "reengineerable": false,
         "gradeChangeable": false,
         "blueprints": ["FSD_LongRange", "FSD_FastBoot"],
+        "grade": 5,
         "canApplyExperimental": true,
         "description": "This module has been pre-engineered with Grade 5 Increased Range and Faster Boot Sequence modifications."
       },
@@ -1032,7 +1035,7 @@
       "fuelpower": 2.45,
       "grp": "fsd",
       "id": "5R",
-      "name": "Frame Shift Drive (SCO) V1",
+      "name": "FSD (SCO) PreEng (V1)",
       "integrity": 120,
       "mass": 20,
       "maxfuel": 5.2,
@@ -1045,6 +1048,7 @@
         "reengineerable": false,
         "gradeChangeable": false,
         "blueprints": ["FSD_LongRange", "FSD_FastBoot"],
+        "grade": 5,
         "canApplyExperimental": true,
         "description": "This module has been pre-engineered with Grade 5 Increased Range and Faster Boot Sequence modifications."
       },
@@ -1152,7 +1156,7 @@
       "fuelpower": 2.3,
       "grp": "fsd",
       "id": "5S",
-      "name": "Frame Shift Drive (SCO) V1",
+      "name": "FSD (SCO) PreEng (V1)",
       "integrity": 100,
       "mass": 10,
       "maxfuel": 3.2,
@@ -1165,6 +1169,7 @@
         "reengineerable": false,
         "gradeChangeable": false,
         "blueprints": ["FSD_LongRange", "FSD_FastBoot"],
+        "grade": 5,
         "canApplyExperimental": true,
         "description": "This module has been pre-engineered with Grade 5 Increased Range and Faster Boot Sequence modifications."
       },
@@ -1272,7 +1277,7 @@
       "fuelpower": 2.15,
       "grp": "fsd",
       "id": "5T",
-      "name": "Frame Shift Drive (SCO) V1",
+      "name": "FSD (SCO) PreEng (V1)",
       "integrity": 80,
       "mass": 5,
       "maxfuel": 1.9,
@@ -1285,6 +1290,7 @@
         "reengineerable": false,
         "gradeChangeable": false,
         "blueprints": ["FSD_LongRange", "FSD_FastBoot"],
+        "grade": 5,
         "canApplyExperimental": true,
         "description": "This module has been pre-engineered with Grade 5 Increased Range and Faster Boot Sequence modifications."
       },
@@ -1392,7 +1398,7 @@
       "fuelpower": 2.0,
       "grp": "fsd",
       "id": "5U",
-      "name": "Frame Shift Drive (SCO) V1",
+      "name": "FSD (SCO) PreEng (V1)",
       "integrity": 64,
       "mass": 2.5,
       "maxfuel": 1,
@@ -1405,6 +1411,7 @@
         "reengineerable": false,
         "gradeChangeable": false,
         "blueprints": ["FSD_LongRange", "FSD_FastBoot"],
+        "grade": 5,
         "canApplyExperimental": true,
         "description": "This module has been pre-engineered with Grade 5 Increased Range and Faster Boot Sequence modifications."
       },

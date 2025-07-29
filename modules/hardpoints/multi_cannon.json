@@ -401,6 +401,7 @@
         "reengineerable": false,
         "gradeChangeable": false,
         "blueprints": ["Weapon_HighCapacity", "Weapon_RapidFire"],
+        "grade": 1,
         "canApplyExperimental": false,
         "experimentalEffects": ["special_phasing_sequence"],
         "description": "This module has been pre-engineered with Grade 5 High Cap & Rapid Fire modifications, and Phasing Sequence Experimental Effect.",

@@ -160,6 +160,7 @@
         "reengineerable": false,
         "gradeChangeable": false,
         "blueprints": ["Weapon_LongRange"],
+        "grade": 5,
         "experimentalEffects": ["special_incendiary_rounds"],
         "canApplyExperimental": true,
         "description": "This module has been pre-engineered with Grade 5 Long Range modifications and Incendiary Rounds Experimental."

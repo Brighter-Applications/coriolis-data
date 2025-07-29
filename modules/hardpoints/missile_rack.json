@@ -283,6 +283,7 @@
         "reengineerable": false,
         "gradeChangeable": false,
         "blueprints": ["Weapon_HighCapacity", "Weapon_LightWeight"],
+        "grade": 5,
         "experimentalEffects": ["special_thermal_cascade"],
         "canApplyExperimental": true,
         "description": "This module has been pre-engineered with Grade 5 High Cap, Lightweight modifications and Thermal Cascade Experimental Effect."
@@ -323,9 +324,11 @@
         "reengineerable": false,
         "gradeChangeable": false,
         "blueprints": ["Weapon_HighCapacity", "Weapon_RapidFire"],
+        "grade": 1,
         "experimentalEffects": ["special_drag_munitions"],
         "canApplyExperimental": true,
-        "description": "This module has been pre-engineered with Grade 5 High Cap, Rapid Fire modifications and Drag Munitions Experimental Effect."
+        "description": "This module has been pre-engineered with Grade 5 High Cap, Rapid Fire modifications and Drag Munitions Experimental Effect.",
+        "availability": "CG"
       },
       "mount": "F",
       "piercing": 60,

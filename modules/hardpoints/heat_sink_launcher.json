@@ -44,6 +44,7 @@
         "reengineerable": false,
         "gradeChangeable": false,
         "blueprints": ["Misc_HeatSinkCapacity"],
+        "grade": 1,
         "canApplyExperimental": false,
         "description": "This module has been pre-engineered with Grade 1 Expanded Heat Sink Capacity modifications."
       },
