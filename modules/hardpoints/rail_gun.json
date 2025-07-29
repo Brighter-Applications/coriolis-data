@@ -127,6 +127,7 @@
         "reengineerable": false,
         "gradeChangeable": false,
         "blueprints": ["Weapon_HighCapacity", "Weapon_LongRange"],
+        "grade": 5,
         "canApplyExperimental": false,
         "experimentalEffects": ["special_feedback_cascade"],
         "description": "This module has been pre-engineered with Grade 5 High Cap & Long Range modifications, and Feedback Cascade Experimental Effect.",

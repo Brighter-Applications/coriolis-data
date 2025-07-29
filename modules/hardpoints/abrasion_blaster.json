@@ -88,9 +88,11 @@
         "reengineerable": false,
         "gradeChangeable": false,
         "blueprints": ["Weapon_LongRange"],
+        "grade": 1,
         "experimentalEffects": [],
         "canApplyExperimental": true,
-        "description": "This module has been pre-engineered with Grade 1 Long Range modifications."
+        "description": "This module has been pre-engineered with Grade 1 Long Range modifications.",
+        "availability": "CG"
       },
       "name": "Mining Abrasion Blaster (Long Range)",
       "piercing": 18,

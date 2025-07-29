@@ -159,6 +159,7 @@
         "reengineerable": false,
         "gradeChangeable": false,
         "blueprints": ["Weapon_HighCapacity", "Weapon_RapidFire"],
+        "grade": 5,
         "experimentalEffects": [],
         "canApplyExperimental": false,
         "description": "This module has been pre-engineered with Grade 5 High Capacity and Rapid Fire modifications."
@@ -199,6 +200,7 @@
         "reengineerable": false,
         "gradeChangeable": false,
         "blueprints": ["Weapon_HighCapacity", "Weapon_RapidFire"],
+        "grade": 5,
         "experimentalEffects": [],
         "canApplyExperimental": false,
         "description": "This module has been pre-engineered with Grade 5 High Capacity and Rapid Fire modifications."
