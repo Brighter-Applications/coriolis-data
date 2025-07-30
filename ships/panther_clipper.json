@@ -121,6 +121,7 @@
             "name": "Cargo",
             "eligible": {
                 "cr": 1,
+                "crl": 1,
                 "ft": 1
             }
         },
@@ -130,6 +131,7 @@
             "name": "Cargo",
             "eligible": {
                 "cr": 1,
+                "crl": 1,
                 "ft": 1
             }
         },
