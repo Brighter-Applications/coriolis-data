@@ -56,6 +56,7 @@ module.exports = {
     am: require('./internal/auto_field_maintenance_unit').am,
     bsg: require('./internal/bi_weave_shield_generator').bsg,
     cr: require('./internal/cargo_rack').cr,
+    crl: require('./internal/cargo_rack_large').crl,
     cc: require('./internal/collector_limpet_controllers').cc,
     dc: require('./internal/docking_computer').dc,
     dtl: require('./internal/decontamination_limpet_controller.json').dtl,
