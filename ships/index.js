@@ -40,6 +40,7 @@ module.exports = {
   type_8_transport: require('./type_8_transport').type_8_transport,
   type_9_heavy: require('./type_9_heavy').type_9_heavy,
   type_10_defender: require('./type_10_defender').type_10_defender,
+  type_11_prospector: require('./type_11_prospector').type_11_prospector,
   viper: require('./viper').viper,
   viper_mk_iv: require('./viper_mk_iv').viper_mk_iv,
   vulture: require('./vulture').vulture
