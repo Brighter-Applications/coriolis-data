@@ -6,10 +6,11 @@
       "name": "Adder",
       "manufacturer": "Zorgon Peterson",
       "class": 1,
-      "hullCost": 40000,
+      "hullCost": 40833,
       "speed": 220,
       "boost": 320,
       "boostEnergy": 9,
+      "boostInt": 4,
       "heatCapacity": 170,
       "baseShieldStrength": 60,
       "baseArmour": 90,
@@ -23,7 +24,7 @@
       "crew": 2,
       "reserveFuelCapacity": 0.36
     },
-    "retailCost": 87810,
+    "retailCost": 87808,
     "bulkheads": [
       {
         "id": "BC",

@@ -6,10 +6,11 @@
       "name": "Python",
       "manufacturer": "Faulcon DeLacy",
       "class": 2,
-      "hullCost": 55172380,
+      "hullCost": 55324684,
       "speed": 230,
       "boost": 300,
       "boostEnergy": 23,
+      "boostInt": 4.5,
       "baseShieldStrength": 260,
       "baseArmour": 260,
       "heatCapacity": 300,
@@ -23,7 +24,7 @@
       "crew": 2,
       "reserveFuelCapacity": 0.83
     },
-    "retailCost": 56978180,
+    "retailCost": 56978179,
     "bulkheads": [
       {
         "id": "bO",

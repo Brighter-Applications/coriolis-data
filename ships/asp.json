@@ -6,10 +6,11 @@
       "name": "Asp Explorer",
       "manufacturer": "Lakon",
       "class": 2,
-      "hullCost": 6135660,
+      "hullCost": 6145793,
       "speed": 250,
       "boost": 340,
       "boostEnergy": 13,
+      "boostInt": 4.5,
       "baseShieldStrength": 140,
       "heatCapacity": 272,
       "baseArmour": 210,
@@ -23,7 +24,7 @@
       "crew": 2,
       "reserveFuelCapacity": 0.63
     },
-    "retailCost": 6661150,
+    "retailCost": 6661154,
     "bulkheads": [
       {
         "id": "BH",

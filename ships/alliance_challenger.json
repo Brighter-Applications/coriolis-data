@@ -6,10 +6,11 @@
       "name": "Alliance Challenger",
       "manufacturer": "Lakon",
       "class": 2,
-      "hullCost": 28041035,
+      "hullCost": 29569804,
       "speed": 204,
       "boost": 310,
       "boostEnergy": 19,
+      "boostInt": 6,
       "heatCapacity": 316,
       "baseShieldStrength": 220,
       "baseArmour": 300,
@@ -23,7 +24,7 @@
       "crew": 2,
       "reserveFuelCapacity": 0.77
     },
-    "retailCost": 30472265,
+    "retailCost": 30472252,
     "requirements": {
       "horizons": true
     },

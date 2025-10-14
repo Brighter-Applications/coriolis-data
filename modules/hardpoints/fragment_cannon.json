@@ -304,7 +304,7 @@
       "breachmin": 0.4,
       "class": 3,
       "clip": 3,
-      "cost": 1400830,
+      "cost": 1751040,
       "damage": 3.96,
       "damagedist": {
         "K": 1
@@ -325,6 +325,7 @@
       "piercing": 45,
       "power": 1.02,
       "pp": "Zachary Hudson",
+      "range": 3000,
       "rating": "C",
       "reload": 5,
       "roundspershot": 12,

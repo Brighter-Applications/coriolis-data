@@ -6,14 +6,15 @@
       "name": "Krait Phantom",
       "manufacturer": "Faulcon DeLacy",
       "class": 2,
-      "hullCost": 35589214,
+      "hullCost": 35741519,
       "speed": 250,
       "boost": 350,
+      "boostInt": 4.5,
       "heatCapacity": 300,
       "boostEnergy": 13,
       "baseShieldStrength": 200,
       "baseArmour": 180,
-      "hardness": 60,
+      "hardness": 55,
       "hullMass": 270,
       "masslock": 14,
       "pipSpeed": 0.09,
@@ -23,7 +24,7 @@
       "crew": 2,
       "reserveFuelCapacity": 0.63
     },
-    "retailCost": 37472254,
+    "retailCost": 37472252,
     "bulkheads": [
       {
         "id": "3B",
