@@ -278,7 +278,7 @@
       "mass": 0.57,
       "missile": "S",
       "special": "Seeker V1",
-      "name": "V1 Seeker (HighCap + Lightw + Therm Casc)",
+      "name": "V1 Seeker (HCap+Light+ThermCas)",
       "preEngineered": {
         "reengineerable": false,
         "gradeChangeable": false,
@@ -319,7 +319,7 @@
       "mass": 6.25,
       "missile": "S",
       "special": "Seeker",
-      "name": "Seeker (HighCap + RapidFire + Drag)",
+      "name": "Seeker (HighCap+RapidFire+Drag)",
       "preEngineered": {
         "reengineerable": false,
         "gradeChangeable": false,

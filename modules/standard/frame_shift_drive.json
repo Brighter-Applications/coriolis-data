@@ -395,7 +395,7 @@
       "rating": "A",
       "symbol": "Int_Hyperdrive_Size5_Class5",
       "ukName": "V1 Frame Shift Drive",
-      "name": "Frame Shift Drive PreEng (V1)",
+      "name": "FSD PreEng (V1)",
       "ukDiscript": "A pre-engineered Frame Shift Drive that combines increased range with a faster boot sequence. This module cannot be further engineered, but an experimental effect can be applied.",
       "preEngineered": {
         "reengineerable": false,

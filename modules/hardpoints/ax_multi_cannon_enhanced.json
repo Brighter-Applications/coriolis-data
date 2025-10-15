@@ -229,7 +229,7 @@
           "canApplyExperimental": true,
           "description": "This module has been pre-engineered with Grade 5 Overcharged modifications and Auto-Loader experimental."
         },
-        "name": "AX Multi-Cannon (Overcharged, Auto-Loader)",
+        "name": "AX MC (OC, Auto-Load)",
         "piercing": 17,
         "power": 0.805,
         "range": 4000,
@@ -270,7 +270,7 @@
           "canApplyExperimental": true,
           "description": "This module has been pre-engineered with Grade 5 Overcharged modifications and Auto-Loader experimental."
         },
-        "name": "AX Multi-Cannon (Overcharged, Auto-Loader)",
+        "name": "AX MC (OC, Auto-Load)",
         "piercing": 33,
         "power": 1.12,
         "range": 4000,

@@ -220,7 +220,7 @@
         "canApplyExperimental": true,
         "description": "This module has been pre-engineered with Grade 1 LongRange and Focused modifications with Super Penetrator Experimental."
       },
-      "name": "Shard Cannon (OC + Focused + SuperPen)",
+      "name": "Shard Cannon (OC+Foc+SPen)",
       "eddbID": 0,
       "cost": 0,
       "mass": 2,
@@ -263,7 +263,7 @@
         "canApplyExperimental": true,
         "description": "This module has been pre-engineered with Grade 1 LongRange and Focused modifications with Super Penetrator Experimental."
       },
-      "name": "Shard Cannon (OC + Focused + SuperPen)",
+      "name": "Shard Cannon (OC+Foc+SPen)",
       "cost": 0,
       "mass": 4,
       "integrity": 42,
