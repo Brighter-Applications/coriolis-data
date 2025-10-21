@@ -76,6 +76,7 @@
       "piercing": 18,
       "power": 0.7,
       "pp": "Zemina Torval",
+      "powerplay": "True",
       "range": 2000,
       "rating": "D",
       "thermload": 6,
