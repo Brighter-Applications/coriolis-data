@@ -134,7 +134,7 @@
         "description": "This module has been pre-engineered with Grade 5 High Cap & Long Range modifications, and Feedback Cascade Experimental Effect.",
         "availability": "CG"
       },
-      "name": "Railgun (HCap+LongR+FeedCasc)",
+      "name": "Railgun (HCap+LR+FCasc)",
       "piercing": 100,
       "power": 2.6895,
       "range": 3000,

@@ -94,7 +94,7 @@
         "description": "This module has been pre-engineered with Grade 1 Long Range modifications.",
         "availability": "CG"
       },
-      "name": "Abrasion Blaster (Long Range)",
+      "name": "Abr Blast (LR)",
       "piercing": 18,
       "power": 0.17,
       "range": 4180,

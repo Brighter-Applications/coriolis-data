@@ -164,7 +164,7 @@
         "canApplyExperimental": false,
         "description": "This module has been pre-engineered with Grade 5 High Capacity and Rapid Fire modifications."
       },
-      "name": "AX MissRacks (HCap+RFire)",
+      "name": "AX MRack (HCap+RFire)",
       "piercing": 60,
       "power": 1.2,
       "rating": "E",
@@ -205,7 +205,7 @@
         "canApplyExperimental": false,
         "description": "This module has been pre-engineered with Grade 5 High Capacity and Rapid Fire modifications."
       },
-      "name": "AX MissRacks (HCap+RFire)",
+      "name": "AX MRack (HCap+RFire)",
       "piercing": 60,
       "power": 1.62,
       "rating": "C",

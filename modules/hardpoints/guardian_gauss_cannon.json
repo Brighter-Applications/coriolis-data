@@ -64,7 +64,7 @@
         "canApplyExperimental": false,
         "description": "This module has been pre-engineered with Grade 1 High Capacity and Rapid Fire modifications."
       },
-      "name": "Gauss (High Cap + Rapid Fire)",
+      "name": "Gauss (HCap + RFire)",
       "piercing": 140,
       "power": 1.91,
       "range": 3000,
@@ -142,7 +142,7 @@
         "canApplyExperimental": false,
         "description": "This module has been pre-engineered with Grade 1 High Capacity and Rapid Fire modifications."
       },
-      "name": "Gauss (High Cap + Rapid Fire)",
+      "name": "Gauss (HCap + RFire)",
       "piercing": 140,
       "power": 2.61,
       "range": 3000,
