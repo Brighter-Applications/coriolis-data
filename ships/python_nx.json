@@ -27,7 +27,7 @@
     "retailCost": 67527359,
     "bulkheads": [
       {
-        "id": "bO",
+        "id": "77",
         "edID": 129030465,
         "eddbID": 0,
         "grp": "bh",
@@ -37,10 +37,11 @@
         "explres": -0.4,
         "kinres": -0.2,
         "thermres": 0,
-        "hullboost": 0.8
+        "hullboost": 0.8,
+        "name": "Lightweight Alloy"
       },
       {
-        "id": "bP",
+        "id": "78",
         "edID": 129030466,
         "eddbID": 0,
         "grp": "bh",
@@ -50,10 +51,11 @@
         "explres": -0.4,
         "kinres": -0.2,
         "thermres": 0,
-        "hullboost": 1.52
+        "hullboost": 1.52,
+        "name": "Reinforced Alloy"
       },
       {
-        "id": "bQ",
+        "id": "79",
         "edID": 129030467,
         "eddbID": 0,
         "grp": "bh",
@@ -63,10 +65,11 @@
         "explres": -0.4,
         "kinres": -0.2,
         "thermres": 0,
-        "hullboost": 2.5
+        "hullboost": 2.5,
+        "name": "Military Grade Composite"
       },
       {
-        "id": "bR",
+        "id": "7A",
         "edID": 129030468,
         "eddbID": 0,
         "grp": "bh",
@@ -76,10 +79,11 @@
         "explres": -0.5,
         "kinres": -0.75,
         "thermres": 0.5,
-        "hullboost": 2.5
+        "hullboost": 2.5,
+        "name": "Mirrored Surface Composite"
       },
       {
-        "id": "bS",
+        "id": "7B",
         "edID": 129030469,
         "eddbID": 0,
         "grp": "bh",
@@ -89,7 +93,8 @@
         "explres": 0.2,
         "kinres": 0.25,
         "thermres": -0.4,
-        "hullboost": 2.5
+        "hullboost": 2.5,
+        "name": "Reactive Surface Composite"
       }
     ],
     "slots": {
