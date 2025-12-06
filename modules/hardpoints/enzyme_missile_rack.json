@@ -49,7 +49,7 @@
       "shotspeed": 750,
       "clip": 7,
       "ammo": 40,
-      "name": "Caustic Enzyme Missile (High Capacity)",
+      "name": "Caust Enzyme (High Cap)",
       "preEngineered": {
         "reengineerable": false,
         "gradeChangeable": false,

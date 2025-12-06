@@ -120,6 +120,7 @@
       "piercing": 30,
       "power": 0.28,
       "pp": "Pranav Antal",
+      "powerplay": "True",
       "range": 4500,
       "rating": "F",
       "reload": 4,
@@ -407,7 +408,7 @@
         "description": "This module has been pre-engineered with Grade 5 High Cap & Rapid Fire modifications, and Phasing Sequence Experimental Effect.",
         "availability": "CG"
       },
-      "name": "Multi-Cannon (High Capacity + Rapid Fire + Phasing Sequence)",
+      "name": "MC (HCap+RFire+Phase)",
       "piercing": 37,
       "power": 0.46,
       "range": 2000,

@@ -95,6 +95,7 @@
       "piercing": 100,
       "power": 1.63,
       "pp": "Arissa Lavigny-Duval",
+      "powerplay": "True",
       "range": 3000,
       "rating": "B",
       "reload": 1,
@@ -133,7 +134,7 @@
         "description": "This module has been pre-engineered with Grade 5 High Cap & Long Range modifications, and Feedback Cascade Experimental Effect.",
         "availability": "CG"
       },
-      "name": "Railgun (HighCap + LongRange + Feedback Cascade)",
+      "name": "Railgun (HCap+LR+FCasc)",
       "piercing": 100,
       "power": 2.6895,
       "range": 3000,

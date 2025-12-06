@@ -222,7 +222,7 @@
         "canApplyExperimental": false,
         "description": "This module has been pre-engineered with Grade 1 Overcharged and Focused modifications."
       },
-      "name": "Plasma Charger (Overcharged + Focused)",
+      "name": "Plasma Charger (OC+Foc)",
       "piercing": 65,
       "power": 1.4,
       "range": 3000,
@@ -262,7 +262,7 @@
         "canApplyExperimental": false,
         "description": "This module has been pre-engineered with Grade 1 Overcharged and Focused modifications."
       },
-      "name": "Plasma Charger (Overcharged + Focused)",
+      "name": "Plasma Charger (OC+Foc)",
       "piercing": 80,
       "power": 2.13,
       "range": 3500,

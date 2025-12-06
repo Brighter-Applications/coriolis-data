@@ -14,6 +14,7 @@ module.exports = {
   diamondback: require('./diamondback_scout').diamondback,
   dolphin: require('./dolphin').dolphin,
   eagle: require('./eagle').eagle,
+  explorer_nx: require('./explorer_nx').explorer_nx,
   federal_assault_ship: require('./federal_assault_ship').federal_assault_ship,
   federal_corvette: require('./federal_corvette').federal_corvette,
   federal_dropship: require('./federal_dropship').federal_dropship,

@@ -115,6 +115,7 @@
       "piercing": 1,
       "power": 0.8,
       "pp": "Archon Delaine",
+      "powerplay": "True",
       "range": 1000,
       "rating": "F",
       "thermload": 0.3,

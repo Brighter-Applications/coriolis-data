@@ -153,6 +153,7 @@
       "piercing": 60,
       "power": 1.2,
       "pp": "Yuri Grom",
+      "powerplay": "True",
       "rating": "B",
       "reload": 5,
       "shotspeed": 750,
@@ -187,6 +188,7 @@
       "piercing": 60,
       "power": 1.2,
       "pp": "Li Yong-Rui",
+      "powerplay": "True",
       "rating": "B",
       "reload": 5,
       "roundspershot": 4,
@@ -278,7 +280,7 @@
       "mass": 0.57,
       "missile": "S",
       "special": "Seeker V1",
-      "name": "V1 Seeker (HighCap + Lightw + Therm Casc)",
+      "name": "V1 Seek (HCap+LW+TC)",
       "preEngineered": {
         "reengineerable": false,
         "gradeChangeable": false,
@@ -319,7 +321,7 @@
       "mass": 6.25,
       "missile": "S",
       "special": "Seeker",
-      "name": "Seeker (HighCap + RapidFire + Drag)",
+      "name": "Seek (HCap+RF+Drag)",
       "preEngineered": {
         "reengineerable": false,
         "gradeChangeable": false,
