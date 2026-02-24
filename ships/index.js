@@ -27,6 +27,7 @@ module.exports = {
   imperial_cutter: require('./imperial_cutter').imperial_cutter,
   imperial_eagle: require('./imperial_eagle').imperial_eagle,
   keelback: require('./keelback').keelback,
+  kestrel: require('./kestrel').kestrel,
   krait_mkii: require('./krait_mkii').krait_mkii,
   krait_phantom: require('./krait_phantom').krait_phantom,
   orca: require('./orca').orca,

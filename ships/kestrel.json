@@ -1,0 +1,165 @@
+{
+  "kestrel": {
+    "edID": 129041381,
+    "properties": {
+      "name": "Kestrel",
+      "manufacturer": "Core Dynamics",
+      "class": 1,
+      "hullCost": 4692214,
+      "speed": 271,
+      "boost": 360,
+      "boostEnergy": 16,
+      "boostInt": 4.5,
+      "baseShieldStrength": 225,
+      "baseArmour": 70,
+      "heatCapacity": 237,
+      "hardness": 55,
+      "hullMass": 190,
+      "masslock": 10,
+      "pipSpeed": 0.023809523809524,
+      "pitch": 51.40,
+      "roll": 123.36,
+      "yaw": 24.67,
+      "crew": 2,
+      "reserveFuelCapacity": 0.57
+    },
+    "retailCost": 4925615,
+    "bulkheads": [
+      {
+        "id": "6x",
+        "edID": 129041382,
+        "grp": "bh",
+        "cost": 0,
+        "mass": 0,
+        "causres": 0,
+        "explres": -0.4,
+        "kinres": -0.2,
+        "thermres": 0,
+        "hullboost": 0.8,
+        "name": "Lightweight Alloy"
+      },
+      {
+        "id": "6y",
+        "edID": 129041383,
+        "eddbID": 784,
+        "grp": "bh",
+        "cost": 1970246,
+        "mass": 17,
+        "causres": 0,
+        "explres": -0.4,
+        "kinres": -0.2,
+        "thermres": 0,
+        "hullboost": 1.52,
+        "name": "Reinforced Alloy"
+      },
+      {
+        "id": "6z",
+        "edID": 129041384,
+        "eddbID": 785,
+        "grp": "bh",
+        "cost": 4433053,
+        "mass": 35,
+        "causres": 0,
+        "explres": -0.4,
+        "kinres": -0.2,
+        "thermres": 0,
+        "hullboost": 2.5,
+        "name": "Military Grade Composite"
+      },
+      {
+        "id": "7R",
+        "edID": 129041385,
+        "eddbID": 786,
+        "grp": "bh",
+        "cost": 10476783,
+        "mass": 35,
+        "causres": 0,
+        "explres": -0.5,
+        "kinres": -0.75,
+        "thermres": 0.5,
+        "hullboost": 2.5,
+        "name": "Mirrored Surface Composite"
+      },
+      {
+        "id": "7S",
+        "edID": 129041386,
+        "eddbID": 787,
+        "grp": "bh",
+        "cost": 11609674,
+        "mass": 35,
+        "causres": 0,
+        "explres": 0.2,
+        "kinres": 0.25,
+        "thermres": -0.4,
+        "hullboost": 2.5,
+        "name": "Reactive Surface Composite"
+      }
+    ],
+    "slots": {
+      "standard": [
+        5,
+        5,
+        4,
+        1,
+        5,
+        2,
+        4
+      ],
+      "hardpoints": [
+        3,
+        3,
+        3,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "internal": [
+        5,
+        4,
+        3,
+        2,
+        2,
+        2,
+        1,
+        {
+          "class": 1,
+          "name": "PlanetaryApproachSuite",
+          "eligible": {
+            "pas": 1
+          }
+        }
+      ]
+    },
+    "defaults": {
+      "standard": [
+        "5E",
+        "5E",
+        "FS",
+        "1E",
+        "5E",
+        "2E",
+        "4C"
+      ],
+      "hardpoints": [
+        0,
+        0,
+        0,
+        23,
+        23
+      ],
+      "internal": [
+        "4e",
+        0,
+        "01",
+        0,
+        0,
+        "3w",
+        "3x",
+        "4F"
+      ]
+    }
+  }
+}
