@@ -5,7 +5,7 @@
       "name": "Kestrel Mk II",
       "manufacturer": "Core Dynamics",
       "class": 1,
-      "hullCost": 4692214,
+      "hullCost": 13776380,
       "speed": 271,
       "boost": 360,
       "boostEnergy": 16,
@@ -23,11 +23,11 @@
       "crew": 2,
       "reserveFuelCapacity": 0.57
     },
-    "retailCost": 4925615,
+    "retailCost": 14273820,
     "bulkheads": [
       {
         "id": "6x",
-        "edID": 129041382,
+        "edID": 129039243,
         "grp": "bh",
         "cost": 0,
         "mass": 0,
@@ -40,8 +40,7 @@
       },
       {
         "id": "6y",
-        "edID": 129041383,
-        "eddbID": 784,
+        "edID": 129039244,
         "grp": "bh",
         "cost": 1970246,
         "mass": 17,
@@ -54,8 +53,7 @@
       },
       {
         "id": "6z",
-        "edID": 129041384,
-        "eddbID": 785,
+        "edID": 129039245,
         "grp": "bh",
         "cost": 4433053,
         "mass": 35,
@@ -68,8 +66,7 @@
       },
       {
         "id": "7R",
-        "edID": 129041385,
-        "eddbID": 786,
+        "edID": 129039246,
         "grp": "bh",
         "cost": 10476783,
         "mass": 35,
@@ -82,8 +79,7 @@
       },
       {
         "id": "7S",
-        "edID": 129041386,
-        "eddbID": 787,
+        "edID": 129039247,
         "grp": "bh",
         "cost": 11609674,
         "mass": 35,

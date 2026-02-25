@@ -135,6 +135,40 @@
       "shotspeed": 875,
       "thermload": 29.5,
       "symbol": "Hpt_PlasmaAccelerator_Fixed_Huge"
+    },
+    {
+      "ammo": 0,
+      "breachdmg": 9.8,
+      "breachmax": 0.8,
+      "breachmin": 0.4,
+      "burst": 4,
+      "burstrof": 28,
+      "class": 3,
+      "clip": 18,
+      "cost": 3051200,
+      "damage": 13.9,
+      "damagedist": {
+        "A": 0.6,
+        "K": 0.2,
+        "T": 0.2
+      },
+      "distdraw": 0.92,
+      "edID": 129040538,
+      "falloff": 2500,
+      "fireint": 0.0653,
+      "grp": "pa",
+      "id": "7U",
+      "integrity": 64,
+      "mass": 8,
+      "mount": "F",
+      "piercing": 60,
+      "power": 1.51,
+      "range": 3000,
+      "rating": "B",
+      "reload": 5,
+      "shotspeed": 1200,
+      "thermload": 1.7,
+      "symbol": "Hpt_MkIIPlasmaShockAutocannon_Fixed_Large"
     }
   ]
 }
