@@ -9,6 +9,7 @@
       "hullCost": 22096565,
       "speed": 180,
       "boost": 300,
+      "minthrust": 61.11,
       "boostEnergy": 19,
       "boostInt": 6,
       "baseShieldStrength": 200,
