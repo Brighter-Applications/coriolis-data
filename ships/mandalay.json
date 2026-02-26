@@ -9,6 +9,7 @@
       "speed": 280,
       "heatCapacity": 250,
       "boost": 350,
+      "minthrust": 71.5,
       "boostEnergy": 14,
       "boostInt": 5,
       "baseShieldStrength": 220,
