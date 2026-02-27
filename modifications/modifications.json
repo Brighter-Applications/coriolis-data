@@ -24,6 +24,8 @@
     "kinres": {"id": 17, "name": "kinres", "type": "percentage", "method": "additive", "higherbetter": true},
     "mass": {"id": 18, "name": "mass", "type": "percentage", "method": "multiplicative", "higherbetter": false},
     "maxfuel": {"id": 19, "name": "maxfuel", "type": "percentage", "method": "multiplicative", "higherbetter": true},
+    "maxmass": {"id": 56, "name": "maxmass", "type": "percentage", "method": "multiplicative", "higherbetter": true},
+    "minmass": {"id": 57, "name": "minmass", "type": "percentage", "method": "multiplicative", "higherbetter": true},
     "optmass": {"id": 20, "name": "optmass", "type": "percentage", "method": "multiplicative", "higherbetter": true},
     "optmul": {"id": 21, "name": "optmul", "type": "percentage", "method": "multiplicative", "higherbetter": true},
     "pgen": {"id": 22, "name": "pgen", "type": "percentage", "method": "multiplicative", "higherbetter": true},
