@@ -1,7 +1,6 @@
 {
   "imperial_corsair": {
-    "edID": 0,
-    "eddbID": 0,
+    "edID": 129031321,
     "properties": {
       "name": "Corsair",
       "manufacturer": "Gutamaya",
@@ -32,8 +31,7 @@
     "bulkheads": [
       {
         "id": "bf",
-        "edID": 0,
-        "eddbID": 0,
+        "edID": 129031322,
         "grp": "bh",
         "cost": 0,
         "mass": 0,
@@ -46,8 +44,7 @@
       },
       {
         "id": "bg",
-        "edID": 0,
-        "eddbID": 0,
+        "edID": 129031323,
         "grp": "bh",
         "cost": 31721900,
         "mass": 32,
@@ -60,8 +57,7 @@
       },
       {
         "id": "bh",
-        "edID": 0,
-        "eddbID": 0,
+        "edID": 129031324,
         "grp": "bh",
         "cost": 71374270,
         "mass": 63,
@@ -74,8 +70,7 @@
       },
       {
         "id": "bi",
-        "edID": 0,
-        "eddbID": 0,
+        "edID": 129031325,
         "grp": "bh",
         "cost": 166539970,
         "mass": 63,
@@ -88,8 +83,7 @@
       },
       {
         "id": "bj",
-        "edID": 0,
-        "eddbID": 0,
+        "edID": 129031326,
         "grp": "bh",
         "cost": 186921290,
         "mass": 63,
