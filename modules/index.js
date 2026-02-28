@@ -50,6 +50,7 @@ module.exports = {
     tbem: require('./hardpoints/enzyme_missile_rack.json').tbem,
     tbrfl: require('./hardpoints/remote_release_flechette_launcher.json').tbrfl,
     gsc: require('./hardpoints/guardian_shard_cannon').gsc,
+    mvr: require('./hardpoints/mining_volley_repeater.json').mvr,
     mh: require('./hardpoints/missing_hardpoint').mh,
   },
   internal: {
