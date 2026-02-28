@@ -9,6 +9,7 @@
       "speed": 181,
       "heatCapacity": 250,
       "boost": 250,
+      "minthrust": 33.3,
       "boostEnergy": 19,
       "boostInt": 5,
       "baseShieldStrength": 350,
@@ -27,7 +28,7 @@
     "retailCost": 301348586,
     "bulkheads": [
       {
-        "id": "Bs",
+        "id": "72",
         "edID": 129034271,
         "grp": "bh",
         "cost": 0,
@@ -36,10 +37,11 @@
         "explres": -0.4,
         "kinres": -0.2,
         "thermres": 0,
-        "hullboost": 0.8
+        "hullboost": 0.8,
+        "name": "Lightweight Alloy"
       },
       {
-        "id": "Bt",
+        "id": "73",
         "edID": 129034272,
         "grp": "bh",
         "cost": 120839434,
@@ -48,10 +50,11 @@
         "explres": -0.4,
         "kinres": -0.2,
         "thermres": 0,
-        "hullboost": 1.52
+        "hullboost": 1.52,
+        "name": "Reinforced Alloy"
       },
       {
-        "id": "Bu",
+        "id": "74",
         "edID": 129034273,
         "grp": "bh",
         "cost": 271213728,
@@ -60,10 +63,11 @@
         "explres": -0.4,
         "kinres": -0.2,
         "thermres": 0,
-        "hullboost": 2.5
+        "hullboost": 2.5,
+        "name": "Military Grade Composite"
       },
       {
-        "id": "Bv",
+        "id": "75",
         "edID": 129034274,
         "grp": "bh",
         "cost": 632832030,
@@ -72,10 +76,11 @@
         "explres": -0.5,
         "kinres": -0.75,
         "thermres": 0.5,
-        "hullboost": 2.5
+        "hullboost": 2.5,
+        "name": "Mirrored Surface Composite"
       },
       {
-        "id": "Bw",
+        "id": "76",
         "edID": 129034275,
         "grp": "bh",
         "cost": 710278615,
@@ -84,7 +89,8 @@
         "explres": 0.2,
         "kinres": 0.25,
         "thermres": -0.4,
-        "hullboost": 2.5
+        "hullboost": 2.5,
+        "name": "Reactive Surface Composite"
       }
     ],
     "slots": {
@@ -117,21 +123,23 @@
       ],
       "internal": [
         {
-            "class": 8,
-            "name": "Cargo",
-            "eligible": {
-                "cr": 1,
-                "ft": 1
-            }
+          "class": 8,
+          "name": "Cargo",
+          "eligible": {
+            "cr": 1,
+            "crl": 1,
+            "ft": 1
+          }
         },
         8,
         {
-            "class": 7,
-            "name": "Cargo",
-            "eligible": {
-                "cr": 1,
-                "ft": 1
-            }
+          "class": 7,
+          "name": "Cargo",
+          "eligible": {
+            "cr": 1,
+            "crl": 1,
+            "ft": 1
+          }
         },
         7,
         6,

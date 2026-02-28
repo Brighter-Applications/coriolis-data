@@ -187,6 +187,7 @@
       "piercing": 35,
       "power": 0.7,
       "pp": "Felicia Winters",
+      "powerplay": "True",
       "rating": "E",
       "thermload": 1,
       "symbol": "Hpt_PulseLaser_Fixed_Medium_Disruptor"
