@@ -9818,5 +9818,26 @@
       "Weapon"
     ],
     "name": "Sturdy"
+  },
+  "CargoRack_IncreasedCapacity": {
+    "fdname": "CargoRack_IncreasedCapacity",
+    "grades": {
+      "5": {
+        "components": {
+        },
+        "features": {
+          "cargo": [
+            0.344,
+            0.344
+          ]
+        },
+        "uuid": "53ab027e-1c5f-404b-82e3-0bc4c55c71af"
+      }
+    },
+    "id": 92,
+    "modulename": [
+      "Expanded Capacity Cargo Rack"
+    ],
+    "name": "Expanded Capacity"
   }
 }
