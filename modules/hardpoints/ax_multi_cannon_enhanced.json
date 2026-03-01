@@ -197,6 +197,88 @@
         "shotspeed": 4000,
         "thermload": 0.1,
         "symbol": "Hpt_ATMultiCannon_Turret_Large_V2"
+      },
+      {
+        "experimental": true,
+        "ammo": 2100,
+        "breachdmg": 3.1,
+        "breachmax": 0.5,
+        "breachmin": 0.8,
+        "class": 2,
+        "clip": 100,
+        "cost": 1197644,
+        "damage": 2.4,
+        "damagedist": {
+          "X": 1,
+          "K": 1
+        },
+        "distdraw": 0.11,
+        "falloff": 2000,
+        "fireint": 0.14,
+        "grp": "axmce",
+        "id": "5y",
+        "integrity": 51,
+        "mass": 4,
+        "mount": "G",
+        "preEngineered": {
+          "reengineerable": false,
+          "gradeChangeable": false,
+          "blueprints": ["Weapon_Overcharged"],
+          "grade": 5,
+          "experimentalEffects": ["special_auto_loader"],
+          "canApplyExperimental": true,
+          "description": "This module has been pre-engineered with Grade 5 Overcharged modifications and Auto-Loader experimental."
+        },
+        "name": "AX MC (OC, Auto-Load)",
+        "piercing": 17,
+        "power": 0.805,
+        "range": 4000,
+        "rating": "E",
+        "reload": 4,
+        "shotspeed": 4000,
+        "thermload": 0.18,
+        "symbol": "Hpt_ATMultiCannon_Gimbal_Medium"
+      },
+      {
+        "experimental": true,
+        "ammo": 2100,
+        "breachdmg": 5.2,
+        "breachmax": 0.5,
+        "breachmin": 0.8,
+        "class": 3,
+        "clip": 100,
+        "cost": 2390460,
+        "damage": 4.065,
+        "damagedist": {
+          "X": 1,
+          "K": 1
+        },
+        "distdraw": 0.18,
+        "falloff": 2000,
+        "fireint": 0.17,
+        "grp": "axmce",
+        "id": "5z",
+        "integrity": 64,
+        "mass": 8,
+        "mount": "G",
+        "preEngineered": {
+          "reengineerable": false,
+          "gradeChangeable": false,
+          "blueprints": ["Weapon_Overcharged"],
+          "grade": 5,
+          "experimentalEffects": ["special_auto_loader"],
+          "canApplyExperimental": true,
+          "description": "This module has been pre-engineered with Grade 5 Overcharged modifications and Auto-Loader experimental."
+        },
+        "name": "AX MC (OC, Auto-Load)",
+        "piercing": 33,
+        "power": 1.12,
+        "range": 4000,
+        "rating": "C",
+        "reload": 4,
+        "shotspeed": 4000,
+        "thermload": 0.28,
+        "symbol": "Hpt_ATMultiCannon_Gimbal_Large"
       }
     ]
   }
