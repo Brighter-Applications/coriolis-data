@@ -575,5 +575,8 @@
   "trade_weapon_hardness_weapon_heat": {
     "piercing": 0.4,
     "thermload": 1
+  },
+  "OutfittingFieldType_CargoCapacity": {
+    "cargo": 1
   }
 }

@@ -1259,8 +1259,16 @@
   },
   "cr": {
     "blueprints": {
+      "CargoRack_IncreasedCapacity": {
+        "grades": {
+          "5": {
+            "engineers": []
+          }
+        }
+      }
     },
     "modifications": [
+      "cargo"
     ]
   },
   "crl": {
