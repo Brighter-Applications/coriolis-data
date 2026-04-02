@@ -9,6 +9,7 @@
           "id": "4C",
           "mass": 0,
           "name": "Planetary Approach Suite (Horizons)",
+          "special": "PAS (Horizons)",
           "power": 0,
           "rating": "I",
           "symbol": "Int_PlanetApproachSuite",
@@ -24,6 +25,7 @@
           "id": "4F",
           "mass": 0,
           "name": "Advanced Planetary Approach Suite (Odyssey)",
+          "special": "Adv PAS (Odyssey)",
           "power": 0,
           "rating": "I",
           "symbol": "int_planetapproachsuite_advanced",
@@ -32,4 +34,3 @@
         }
     ]
   }
-  

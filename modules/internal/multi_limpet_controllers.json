@@ -167,6 +167,23 @@
 		"rating": "A",
 		"symbol": "Int_MultiDroneControl_Universal_Size7_Class5",
 		"type": "U"
+	  },
+	  {
+		"class": 5,
+		"cost": 2332800,
+		"edID": 129036138,
+		"grp": "mlc",
+		"id": "7W",
+		"mass": 64,
+		"maximum": 14,
+		"name": "Mk II Mining Multi-Limpet Controller",
+		"power": 1.4,
+		"range": 9.1,
+		"rating": "A",
+		"integrity": 105,
+		"ship": "type_11_prospector",
+		"symbol": "Int_MultiDroneControl_MiningV2_Size5_Class5",
+		"type": "M"
 	  }
 	]
-  }
+}
