@@ -465,6 +465,7 @@
       "damage",
       "damagedist",
       "distdraw",
+      "falloff",
       "fallofffromrange",
       "integrity",
       "jitter",
@@ -970,6 +971,7 @@
       "damage",
       "damagedist",
       "distdraw",
+      "falloff",
       "fallofffromrange",
       "integrity",
       "jitter",
@@ -1258,6 +1260,20 @@
     ]
   },
   "cr": {
+    "blueprints": {
+      "CargoRack_IncreasedCapacity": {
+        "grades": {
+          "5": {
+            "engineers": []
+          }
+        }
+      }
+    },
+    "modifications": [
+      "cargo"
+    ]
+  },
+  "crl": {
     "blueprints": {
     },
     "modifications": [
@@ -2150,6 +2166,7 @@
       "clip",
       "damage",
       "damagedist",
+      "falloff",
       "fallofffromrange",
       "distdraw",
       "integrity",
@@ -3775,6 +3792,7 @@
       "clip",
       "damage",
       "damagedist",
+      "falloff",
       "fallofffromrange",
       "distdraw",
       "integrity",
@@ -4106,6 +4124,7 @@
       "clip",
       "damage",
       "damagedist",
+      "falloff",
       "fallofffromrange",
       "distdraw",
       "integrity",
@@ -4307,6 +4326,7 @@
       "clip",
       "damage",
       "damagedist",
+      "falloff",
       "fallofffromrange",
       "distdraw",
       "integrity",
@@ -4498,6 +4518,7 @@
       "clip",
       "damage",
       "damagedist",
+      "falloff",
       "fallofffromrange",
       "distdraw",
       "integrity",
@@ -4658,6 +4679,7 @@
       "clip",
       "damage",
       "damagedist",
+      "falloff",
       "fallofffromrange",
       "distdraw",
       "integrity",
@@ -4863,6 +4885,7 @@
       "clip",
       "damage",
       "damagedist",
+      "falloff",
       "fallofffromrange",
       "integrity",
       "jitter",
@@ -5243,6 +5266,7 @@
       "clip",
       "damage",
       "damagedist",
+      "falloff",
       "fallofffromrange",
       "distdraw",
       "integrity",
@@ -6012,6 +6036,7 @@
     "modifications": [
       "damage",
       "damagedist",
+      "falloff",
       "fallofffromrange",
       "distdraw",
       "integrity",
@@ -6722,6 +6747,7 @@
       "clip",
       "damage",
       "damagedist",
+      "falloff",
       "fallofffromrange",
       "distdraw",
       "integrity",
@@ -7735,6 +7761,7 @@
     "modifications": [
       "damage",
       "damagedist",
+      "falloff",
       "fallofffromrange",
       "distdraw",
       "integrity",
@@ -8068,6 +8095,7 @@
       "burstrof",
       "damage",
       "damagedist",
+      "falloff",
       "fallofffromrange",
       "distdraw",
       "integrity",
@@ -8081,7 +8109,7 @@
     ],
     "specials": [
       "special_concordant_sequence",
-      "special_inertial_impact",
+      "special_distortion_field",
       "special_phasing_sequence",
       "special_scramble_spectrum",
       "special_thermalshock",

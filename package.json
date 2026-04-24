@@ -22,11 +22,11 @@
     "install": "node generate_distribution.js"
   },
   "dependencies": {
-    "uglify-js": "^2.7.5"
+    "uglify-js": "^3.17.0"
   },
   "devDependencies": {
-    "eslint": "^6.8.0",
-    "eslint-plugin-json": "^1.1.0",
-    "jasmine-node": "^1.14.5"
+    "eslint": "^9.37.0",
+    "eslint-plugin-jsonc": "^2.21.0",
+    "jasmine-node": "^3.0.0"
   }
 }

@@ -373,6 +373,7 @@
       "mass": 4,
       "mount": "G",
       "name": "Concord Cannon",
+      "powerplay": "True",
       "piercing": 42,
       "power": 0.64,
       "range": 3500,

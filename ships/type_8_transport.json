@@ -9,6 +9,7 @@
       "speed": 200,
       "heatCapacity": 226,
       "boost": 340,
+      "minthrust": 45,
       "boostEnergy": 10,
       "boostInt": 4,
       "baseShieldStrength": 228,
@@ -26,7 +27,7 @@
     "retailCost": 38453970,
     "bulkheads": [
       {
-        "id": "Bs",
+        "id": "7H",
         "edID": 129030535,
         "grp": "bh",
         "cost": 0,
@@ -35,10 +36,11 @@
         "explres": -0.4,
         "kinres": -0.2,
         "thermres": 0,
-        "hullboost": 0.8
+        "hullboost": 0.8,
+        "name": "Lightweight Alloy"
       },
       {
-        "id": "Bt",
+        "id": "7I",
         "edID": 129030536,
         "grp": "bh",
         "cost": 15381590,
@@ -47,10 +49,11 @@
         "explres": -0.4,
         "kinres": -0.2,
         "thermres": 0,
-        "hullboost": 1.52
+        "hullboost": 1.52,
+        "name": "Reinforced Alloy"
       },
       {
-        "id": "Bu",
+        "id": "7J",
         "edID": 129030537,
         "grp": "bh",
         "cost": 34608570,
@@ -59,10 +62,11 @@
         "explres": -0.4,
         "kinres": -0.2,
         "thermres": 0,
-        "hullboost": 2.5
+        "hullboost": 2.5,
+        "name": "Military Grade Composite"
       },
       {
-        "id": "Bv",
+        "id": "7K",
         "edID": 129030538,
         "grp": "bh",
         "cost": 37163480,
@@ -71,10 +75,11 @@
         "explres": -0.5,
         "kinres": -0.75,
         "thermres": 0.5,
-        "hullboost": 2.5
+        "hullboost": 2.5,
+        "name": "Mirrored Surface Composite"
       },
       {
-        "id": "Bw",
+        "id": "7L",
         "edID": 129030539,
         "grp": "bh",
         "cost": 90636000,
@@ -83,7 +88,8 @@
         "explres": 0.2,
         "kinres": 0.25,
         "thermres": -0.4,
-        "hullboost": 2.5
+        "hullboost": 2.5,
+        "name": "Reactive Surface Composite"
       }
     ],
     "slots": {

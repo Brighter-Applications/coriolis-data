@@ -131,6 +131,88 @@
       "shotspeed": 750,
       "thermload": 1.9,
       "symbol": "Hpt_ATDumbfireMissile_Turret_Large"
+    },
+    {
+      "experimental": true,
+      "ammo": 64,
+      "breachdmg": 0.1,
+      "breachmax": 0.8,
+      "breachmin": 1,
+      "class": 2,
+      "clip": 8,
+      "cost": 540900,
+      "damage": 71.5,
+      "damagedist": {
+        "X": 1,
+        "E": 1
+      },
+      "distdraw": 0.112,
+      "falloff": 10000,
+      "fireint": 3.045,
+      "grp": "axmr",
+      "id": "5w",
+      "integrity": 51,
+      "mass": 4.25,
+      "missile": "D",
+      "mount": "F",
+      "preEngineered": {
+        "reengineerable": false,
+        "gradeChangeable": false,
+        "blueprints": ["Weapon_HighCapacity", "Weapon_RapidFire"],
+        "grade": 5,
+        "experimentalEffects": [],
+        "canApplyExperimental": false,
+        "description": "This module has been pre-engineered with Grade 5 High Capacity and Rapid Fire modifications."
+      },
+      "name": "AX MRack (HCap+RFire)",
+      "piercing": 60,
+      "power": 1.2,
+      "rating": "E",
+      "reload": 7.85,
+      "shotspeed": 750,
+      "thermload": 2.4,
+      "symbol": "Hpt_ATDumbfireMissile_Fixed_Medium"
+    },
+    {
+      "experimental": true,
+      "ammo": 128,
+      "breachdmg": 0.1,
+      "breachmax": 0.8,
+      "breachmin": 1,
+      "class": 3,
+      "clip": 12,
+      "cost": 0,
+      "damage": 71.5,
+      "damagedist": {
+        "X": 1,
+        "E": 1
+      },
+      "distdraw": 0.192,
+      "falloff": 10000,
+      "fireint": 3.045,
+      "grp": "axmr",
+      "id": "5x",
+      "integrity": 64,
+      "mass": 8.5,
+      "missile": "D",
+      "mount": "F",
+      "preEngineered": {
+        "reengineerable": false,
+        "gradeChangeable": false,
+        "blueprints": ["Weapon_HighCapacity", "Weapon_RapidFire"],
+        "grade": 5,
+        "experimentalEffects": [],
+        "canApplyExperimental": false,
+        "description": "This module has been pre-engineered with Grade 5 High Capacity and Rapid Fire modifications."
+      },
+      "name": "AX MRack (HCap+RFire)",
+      "piercing": 60,
+      "power": 1.62,
+      "rating": "C",
+      "reload": 7.85,
+      "shotspeed": 750,
+      "thermload": 3.6,
+      "symbol": "Hpt_ATDumbfireMissile_Fixed_Large"
     }
   ]
 }

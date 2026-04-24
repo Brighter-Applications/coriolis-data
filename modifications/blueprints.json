@@ -2345,20 +2345,18 @@
           "Classified Scan Fragment": 1
         },
         "features": {
-          "facinglimit": {
-            "facinglimit": [
-              1,
-              1.2
-            ],
-            "power": [
-              0.5,
-              0.5
-            ],
-            "ranget": [
-              -0.3,
-              -0.3
-            ]
-          }
+          "facinglimit": [
+            1,
+            1.2
+          ],
+          "power": [
+            0.5,
+            0.5
+          ],
+          "ranget": [
+            -0.3,
+            -0.3
+          ]
         },
         "uuid": "dd804ba4-5186-44b5-a096-6490b5806165"
       }
@@ -3198,8 +3196,8 @@
         },
         "features": {
           "ammo": [
-            0.5,
-            0.5
+            0.49,
+            0.49
           ],
           "mass": [
             1,
@@ -9818,5 +9816,26 @@
       "Weapon"
     ],
     "name": "Sturdy"
+  },
+  "CargoRack_IncreasedCapacity": {
+    "fdname": "CargoRack_IncreasedCapacity",
+    "grades": {
+      "5": {
+        "components": {
+        },
+        "features": {
+          "cargo": [
+            0.344,
+            0.344
+          ]
+        },
+        "uuid": "53ab027e-1c5f-404b-82e3-0bc4c55c71af"
+      }
+    },
+    "id": 106,
+    "modulename": [
+      "Expanded Capacity Cargo Rack"
+    ],
+    "name": "Expanded Capacity"
   }
 }
