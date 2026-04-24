@@ -2345,20 +2345,18 @@
           "Classified Scan Fragment": 1
         },
         "features": {
-          "facinglimit": {
-            "facinglimit": [
-              1,
-              1.2
-            ],
-            "power": [
-              0.5,
-              0.5
-            ],
-            "ranget": [
-              -0.3,
-              -0.3
-            ]
-          }
+          "facinglimit": [
+            1,
+            1.2
+          ],
+          "power": [
+            0.5,
+            0.5
+          ],
+          "ranget": [
+            -0.3,
+            -0.3
+          ]
         },
         "uuid": "dd804ba4-5186-44b5-a096-6490b5806165"
       }
