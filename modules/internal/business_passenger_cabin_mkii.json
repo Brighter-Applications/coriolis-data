@@ -3,7 +3,7 @@
     {
       "class": 3,
       "cost": 35607,
-      "edID": 128734692,
+      "edID": 129043772,
       "grp": "pcimkii",
       "id": "89",
       "mass": 5,
@@ -17,7 +17,7 @@
     {
       "class": 4,
       "cost": 75818,
-      "edID": 128727923,
+      "edID": 129043774,
       "grp": "pcimkii",
       "id": "8A",
       "mass": 10,
@@ -31,7 +31,7 @@
     {
       "class": 5,
       "cost": 123151,
-      "edID": 128734694,
+      "edID": 129043776,
       "grp": "pcimkii",
       "id": "8B",
       "mass": 20,
@@ -45,7 +45,7 @@
     {
       "class": 6,
       "cost": 245643,
-      "edID": 128727927,
+      "edID": 129043778,
       "grp": "pcimkii",
       "id": "8C",
       "mass": 40,

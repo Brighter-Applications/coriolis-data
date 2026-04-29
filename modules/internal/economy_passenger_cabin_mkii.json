@@ -3,7 +3,7 @@
     {
       "class": 2,
       "cost": 5750,
-      "edID": 128734690,
+      "edID": 129043770,
       "grp": "pcemkii",
       "id": "7v",
       "mass": 2.5,
@@ -17,7 +17,7 @@
     {
       "class": 3,
       "cost": 11544,
-      "edID": 128734691,
+      "edID": 129043771,
       "grp": "pcemkii",
       "id": "7w",
       "mass": 5,
@@ -31,7 +31,7 @@
     {
       "class": 4,
       "cost": 25273,
-      "edID": 128727922,
+      "edID": 129043773,
       "grp": "pcemkii",
       "id": "7x",
       "mass": 10,
@@ -45,7 +45,7 @@
     {
       "class": 5,
       "cost": 46607,
-      "edID": 128734693,
+      "edID": 129043775,
       "grp": "pcemkii",
       "id": "7y",
       "mass": 20,
@@ -59,7 +59,7 @@
     {
       "class": 6,
       "cost": 123152,
-      "edID": 128727926,
+      "edID": 129043777,
       "grp": "pcemkii",
       "id": "7z",
       "mass": 40,
