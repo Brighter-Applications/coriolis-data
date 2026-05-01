@@ -62,9 +62,9 @@ jobs:
       - name: Verify version and ChangeLog
         shell: bash
         run: |
-          export NVM_DIR=~/.nvm
-          source ~/.nvm/nvm.sh
-          BETA_VERSION=$(node -p "require('./package.json').version")
+          # Read version from package.json without Node
+          BETA_VERSION=$(grep -oP '"version"\s*:\s*"\K[^"]+' package.json)
+          echo "Version in beta package.json: ${BETA_VERSION}"
           echo "Version in beta package.json: ${BETA_VERSION}"
 
           LATEST_TAG=$(git tag -l 'v*' --sort=-v:refname | head -n 1 || echo "")
@@ -181,9 +181,7 @@ jobs:
         id: version
         shell: bash
         run: |
-          export NVM_DIR=~/.nvm
-          source ~/.nvm/nvm.sh
-          VERSION=$(node -p "require('./package.json').version")
+          VERSION=$(grep -oP '"version"\s*:\s*"\K[^"]+' package.json)
           echo "version=$VERSION" >> "$GITHUB_OUTPUT"
           echo "::notice::Creating release for v${VERSION}"
 
