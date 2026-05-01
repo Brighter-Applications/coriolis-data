@@ -1,3 +1,5 @@
+#4.0.1
+  * Workflow fix to using Github API rather than CLI for release creation
 #4.0.0
   * Workflow upgrade for QoL when passing code up the branches to deploy
 #2.5.1
