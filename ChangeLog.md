@@ -1,3 +1,5 @@
+#4.0.3
+  * Removing the risk of merge conflicts during promotions to environments
 #4.0.2
   * Removed last checkout@v4 action from workflow
 #4.0.1
