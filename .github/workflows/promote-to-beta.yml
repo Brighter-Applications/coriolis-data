@@ -24,7 +24,7 @@ jobs:
       feature_branch: ${{ steps.check.outputs.feature_branch }}
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
           fetch-tags: true
@@ -50,7 +50,7 @@ jobs:
     needs: check-pipeline-state
     steps:
       - name: Checkout beta
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           ref: beta
           fetch-depth: 0

@@ -53,7 +53,7 @@ jobs:
     needs: check-pipeline-state
     steps:
       - name: Checkout beta branch
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           ref: beta
           fetch-depth: 0
@@ -104,7 +104,7 @@ jobs:
     needs: check-version
     steps:
       - name: Checkout live
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           ref: live
           fetch-depth: 0
@@ -127,7 +127,7 @@ jobs:
     needs: [merge-beta-to-live, check-pipeline-state]
     steps:
       - name: Checkout develop
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           ref: develop
           fetch-depth: 0
@@ -171,7 +171,7 @@ jobs:
     needs: [finalise-release, check-pipeline-state]
     steps:
       - name: Checkout live
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           ref: live
           fetch-depth: 0
