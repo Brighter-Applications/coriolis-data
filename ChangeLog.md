@@ -1,3 +1,5 @@
+#4.0.2
+  * Removed last checkout@v4 action from workflow
 #4.0.1
   * Workflow fix to using Github API rather than CLI for release creation
 #4.0.0
