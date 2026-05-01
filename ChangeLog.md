@@ -1,3 +1,6 @@
+#4.0.5
+  * Fixed fuelmul for the v1 SCO drive
+
 #4.0.4
   * Lynx Highliner tonnage was set to 250, should have been 260
 
