@@ -188,15 +188,17 @@ jobs:
       - name: Create release tag and GitHub Release
         shell: bash
         env:
-          GH_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
+          DEPLOY_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
           VERSION: ${{ steps.version.outputs.version }}
           FEATURE_BRANCH: ${{ needs.check-pipeline-state.outputs.feature_branch }}
+          REPO: ${{ github.repository }}
         run: |
           TAG="v${VERSION}"
 
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
+          # Create an annotated tag on the live branch
           git tag -a "$TAG" -m "Release ${TAG}" -f
           git push origin "$TAG" --force
 
@@ -206,17 +208,28 @@ jobs:
 
           **Feature branch:** \`${FEATURE_BRANCH}\`"
 
-          if gh release view "$TAG" >/dev/null 2>&1; then
+          # Check if release already exists
+          HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" \
+            -H "Authorization: token ${DEPLOY_TOKEN}" \
+            "https://api.github.com/repos/${REPO}/releases/tags/${TAG}")
+
+          if [ "$HTTP_CODE" == "200" ]; then
             echo "Release $TAG already exists — updating"
-            gh release edit "$TAG" \
-              --title "coriolis-data ${TAG}" \
-              --notes "$NOTES" \
-              --target live
+            RELEASE_ID=$(curl -s \
+              -H "Authorization: token ${DEPLOY_TOKEN}" \
+              "https://api.github.com/repos/${REPO}/releases/tags/${TAG}" | grep -oP '"id"\s*:\s*\K\d+' | head -1)
+            curl -s -X PATCH \
+              -H "Authorization: token ${DEPLOY_TOKEN}" \
+              -H "Content-Type: application/json" \
+              "https://api.github.com/repos/${REPO}/releases/${RELEASE_ID}" \
+              -d "$(printf '{"tag_name":"%s","name":"coriolis-data %s","body":"%s","target_commitish":"live"}' "$TAG" "$TAG" "$(echo "$NOTES" | sed 's/"/\\"/g' | sed ':a;N;$!ba;s/\n/\\n/g')")"
           else
-            gh release create "$TAG" \
-              --title "coriolis-data ${TAG}" \
-              --notes "$NOTES" \
-              --target live
+            echo "Creating new release $TAG"
+            curl -s -X POST \
+              -H "Authorization: token ${DEPLOY_TOKEN}" \
+              -H "Content-Type: application/json" \
+              "https://api.github.com/repos/${REPO}/releases" \
+              -d "$(printf '{"tag_name":"%s","name":"coriolis-data %s","body":"%s","target_commitish":"live"}' "$TAG" "$TAG" "$(echo "$NOTES" | sed 's/"/\\"/g' | sed ':a;N;$!ba;s/\n/\\n/g')")"
           fi
 
-          echo "::notice::Release ${TAG} created — https://github.com/${{ github.repository }}/releases/tag/${TAG}"
+          echo "::notice::Release ${TAG} created — https://github.com/${REPO}/releases/tag/${TAG}"
