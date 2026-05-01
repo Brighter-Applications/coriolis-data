@@ -73,7 +73,7 @@ jobs:
     needs: [merge-alpha-to-beta, check-pipeline-state]
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           ref: beta
           fetch-depth: 1
