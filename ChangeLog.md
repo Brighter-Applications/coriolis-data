@@ -1,12 +1,15 @@
-<<<<<<< fixes/workflow_actions_upgrade
+#4.0.3
+  * Removing the risk of merge conflicts during promotions to environments
+
 #4.0.2
   * Removed last checkout@v4 action from workflow
-=======
->>>>>>> alpha
+
 #4.0.1
   * Workflow fix to using Github API rather than CLI for release creation
+
 #4.0.0
   * Workflow upgrade for QoL when passing code up the branches to deploy
+
 #2.5.1
   * AX Modules
   * Fixed some engineering values
