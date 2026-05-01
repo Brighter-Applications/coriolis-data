@@ -1,3 +1,6 @@
+#4.0.4
+  * Lynx Highliner tonnage was set to 250, should have been 260
+
 #4.0.3
   * Removing the risk of merge conflicts during promotions to environments
 
