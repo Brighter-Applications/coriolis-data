@@ -31,27 +31,31 @@ jobs:
         shell: bash
         env:
           GH_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
+          COMMIT_SHA: ${{ github.sha }}
         run: |
-          # Use the GitHub API to find the most recently merged PR into alpha
-          FEATURE=$(gh pr list \
-            --base alpha \
-            --state merged \
-            --limit 1 \
-            --json headRefName \
-            --jq '.[0].headRefName // empty' 2>/dev/null || echo "")
+          # Find the PR that introduced this specific commit to alpha
+          FEATURE=$(gh api \
+            "/repos/${{ github.repository }}/commits/${COMMIT_SHA}/pulls" \
+            --jq '.[0].head.ref // empty' 2>/dev/null || echo "")
+
+          # If the API didn't return anything, try searching by merged PRs
+          if [ -z "$FEATURE" ]; then
+            FEATURE=$(gh pr list \
+              --base alpha \
+              --state merged \
+              --limit 5 \
+              --json headRefName,mergedAt \
+              --jq 'sort_by(.mergedAt) | reverse | [.[] | select(.headRefName != "beta" and .headRefName != "live" and .headRefName != "develop" and .headRefName != "alpha")][0].headRefName // empty' 2>/dev/null || echo "")
+          fi
 
           # Skip known non-feature branches
           if [ "$FEATURE" == "beta" ] || [ "$FEATURE" == "live" ] || [ "$FEATURE" == "develop" ] || [ "$FEATURE" == "alpha" ]; then
-            echo "::warning::Merged branch '$FEATURE' is not a feature branch. Skipping feature branch tracking."
+            echo "::warning::Merged branch '$FEATURE' is not a feature branch. Setting to unknown."
             FEATURE="unknown"
           fi
 
           if [ -z "$FEATURE" ]; then
-            # Fallback: parse the merge commit message
-            FEATURE=$(git log --merges -1 --pretty=%s | grep -oP 'from [^/]+/\K\S+' || echo "")
-            if [ -z "$FEATURE" ] || [ "$FEATURE" == "beta" ] || [ "$FEATURE" == "live" ] || [ "$FEATURE" == "develop" ]; then
-              FEATURE=$(git log --merges -1 --pretty=%s | grep -oP "Merge branch '\K[^']+" || echo "unknown")
-            fi
+            FEATURE="unknown"
           fi
 
           echo "branch=$FEATURE" >> "$GITHUB_OUTPUT"
