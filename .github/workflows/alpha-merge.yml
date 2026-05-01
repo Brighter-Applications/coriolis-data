@@ -14,6 +14,7 @@ on:
 
 permissions:
   contents: write
+  pull-requests: read
 
 jobs:
   mark-alpha-ready:
@@ -33,19 +34,33 @@ jobs:
           GH_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
           COMMIT_SHA: ${{ github.sha }}
         run: |
-          # Find the PR that introduced this specific commit to alpha
-          FEATURE=$(gh api \
-            "/repos/${{ github.repository }}/commits/${COMMIT_SHA}/pulls" \
-            --jq '.[0].head.ref // empty' 2>/dev/null || echo "")
+          echo "Commit SHA: ${COMMIT_SHA}"
 
-          # If the API didn't return anything, try searching by merged PRs
+          # Method 1: Use the commits API to find associated PRs
+          FEATURE=$(gh api \
+            "repos/${{ github.repository }}/commits/${COMMIT_SHA}/pulls" \
+            --jq '[.[] | select(.base.ref == "alpha")][0].head.ref // empty' 2>/dev/null || echo "")
+          echo "Method 1 (commits/pulls API): '${FEATURE}'"
+
+          # Method 2: Search for merged PRs whose merge_commit_sha matches
           if [ -z "$FEATURE" ]; then
             FEATURE=$(gh pr list \
               --base alpha \
               --state merged \
-              --limit 5 \
-              --json headRefName,mergedAt \
-              --jq 'sort_by(.mergedAt) | reverse | [.[] | select(.headRefName != "beta" and .headRefName != "live" and .headRefName != "develop" and .headRefName != "alpha")][0].headRefName // empty' 2>/dev/null || echo "")
+              --limit 10 \
+              --json headRefName,mergeCommitSha \
+              --jq "[.[] | select(.mergeCommitSha == \"${COMMIT_SHA}\")][0].headRefName // empty" 2>/dev/null || echo "")
+            echo "Method 2 (merge commit match): '${FEATURE}'"
+          fi
+
+          # Method 3: Parse the squash merge commit message
+          # GitHub squash merges use the format: "Title (#123)" — extract the PR number and look it up
+          if [ -z "$FEATURE" ]; then
+            PR_NUM=$(git log -1 --pretty=%s | grep -oP '#\K\d+' || echo "")
+            if [ -n "$PR_NUM" ]; then
+              FEATURE=$(gh pr view "$PR_NUM" --json headRefName --jq '.headRefName // empty' 2>/dev/null || echo "")
+              echo "Method 3 (PR number from commit message #${PR_NUM}): '${FEATURE}'"
+            fi
           fi
 
           # Skip known non-feature branches
@@ -56,6 +71,7 @@ jobs:
 
           if [ -z "$FEATURE" ]; then
             FEATURE="unknown"
+            echo "::warning::Could not determine feature branch. The merge-to-develop step will be skipped at promote-to-live time."
           fi
 
           echo "branch=$FEATURE" >> "$GITHUB_OUTPUT"
