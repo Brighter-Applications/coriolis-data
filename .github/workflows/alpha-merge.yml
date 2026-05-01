@@ -29,11 +29,31 @@ jobs:
       - name: Detect feature branch
         id: find
         shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
         run: |
-          FEATURE=$(git log --merges -1 --pretty=%s | grep -oP 'from [^/]+/\K\S+' || echo "")
-          if [ -z "$FEATURE" ]; then
-            FEATURE=$(git log --merges -1 --pretty=%s | grep -oP "Merge branch '\K[^']+" || echo "unknown")
+          # Use the GitHub API to find the most recently merged PR into alpha
+          FEATURE=$(gh pr list \
+            --base alpha \
+            --state merged \
+            --limit 1 \
+            --json headRefName \
+            --jq '.[0].headRefName // empty' 2>/dev/null || echo "")
+
+          # Skip known non-feature branches
+          if [ "$FEATURE" == "beta" ] || [ "$FEATURE" == "live" ] || [ "$FEATURE" == "develop" ] || [ "$FEATURE" == "alpha" ]; then
+            echo "::warning::Merged branch '$FEATURE' is not a feature branch. Skipping feature branch tracking."
+            FEATURE="unknown"
           fi
+
+          if [ -z "$FEATURE" ]; then
+            # Fallback: parse the merge commit message
+            FEATURE=$(git log --merges -1 --pretty=%s | grep -oP 'from [^/]+/\K\S+' || echo "")
+            if [ -z "$FEATURE" ] || [ "$FEATURE" == "beta" ] || [ "$FEATURE" == "live" ] || [ "$FEATURE" == "develop" ]; then
+              FEATURE=$(git log --merges -1 --pretty=%s | grep -oP "Merge branch '\K[^']+" || echo "unknown")
+            fi
+          fi
+
           echo "branch=$FEATURE" >> "$GITHUB_OUTPUT"
           echo "::notice::Detected feature branch: $FEATURE"
 
