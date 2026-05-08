@@ -8,6 +8,7 @@
       "hullCost": 16527192,
       "speed": 280,
       "heatCapacity": 250,
+      "heatDissipation": 51.0,
       "boost": 350,
       "minthrust": 71.5,
       "boostEnergy": 14,

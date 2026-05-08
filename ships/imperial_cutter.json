@@ -17,6 +17,7 @@
       "hardness": 70,
       "hullMass": 1100,
       "heatCapacity": 327,
+      "heatDissipation": 72.58,
       "masslock": 27,
       "pipSpeed": 0.05,
       "fighterHangars": true,

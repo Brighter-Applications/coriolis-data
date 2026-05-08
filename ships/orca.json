@@ -15,6 +15,7 @@
       "baseShieldStrength": 220,
       "baseArmour": 220,
       "heatCapacity": 262,
+      "heatDissipation": 42.68,
       "hardness": 55,
       "hullMass": 290,
       "masslock": 16,

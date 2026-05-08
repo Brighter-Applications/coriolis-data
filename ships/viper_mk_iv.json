@@ -17,6 +17,7 @@
       "hardness": 35,
       "hullMass": 190,
       "heatCapacity": 209,
+      "heatDissipation": 28.98,
       "masslock": 7,
       "pipSpeed": 0.087962962962963,
       "pitch": 30,

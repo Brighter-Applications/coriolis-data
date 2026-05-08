@@ -18,6 +18,7 @@
       "hullMass": 900,
       "masslock": 24,
       "heatCapacity": 333,
+      "heatDissipation": 70.33,
       "pipSpeed": 0.125,
       "fighterHangars": true,
       "pitch": 28,
