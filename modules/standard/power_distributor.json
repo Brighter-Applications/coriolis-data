@@ -1036,7 +1036,7 @@
       "name": "Support Focused",
       "preEngineered": {
         "reengineerable": false,
-        "gradeChangeable": false,
+        "gradeChangeable": true,
         "blueprints": ["PowerDistributor_SupportFocused"],
         "grade": 1,
         "canApplyExperimental": false,
@@ -1066,7 +1066,7 @@
       "name": "Balanced",
       "preEngineered": {
         "reengineerable": false,
-        "gradeChangeable": false,
+        "gradeChangeable": true,
         "blueprints": ["PowerDistributor_Balanced"],
         "grade": 1,
         "canApplyExperimental": false,
@@ -1096,7 +1096,7 @@
       "name": "Support Focused",
       "preEngineered": {
         "reengineerable": false,
-        "gradeChangeable": false,
+        "gradeChangeable": true,
         "blueprints": ["PowerDistributor_SupportFocused"],
         "grade": 1,
         "canApplyExperimental": false,
@@ -1126,7 +1126,7 @@
       "name": "Support Focused",
       "preEngineered": {
         "reengineerable": false,
-        "gradeChangeable": false,
+        "gradeChangeable": true,
         "blueprints": ["PowerDistributor_SupportFocused"],
         "grade": 1,
         "canApplyExperimental": false,
@@ -1156,7 +1156,7 @@
       "name": "Support Focused",
       "preEngineered": {
         "reengineerable": false,
-        "gradeChangeable": false,
+        "gradeChangeable": true,
         "blueprints": ["PowerDistributor_SupportFocused"],
         "grade": 1,
         "canApplyExperimental": false,
@@ -1186,7 +1186,7 @@
       "name": "Support Focused",
       "preEngineered": {
         "reengineerable": false,
-        "gradeChangeable": false,
+        "gradeChangeable": true,
         "blueprints": ["PowerDistributor_SupportFocused"],
         "grade": 1,
         "canApplyExperimental": false,

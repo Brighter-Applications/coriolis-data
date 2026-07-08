@@ -259,7 +259,7 @@
       "mercCoin": 550,
       "preEngineered": {
         "reengineerable": false,
-        "gradeChangeable": false,
+        "gradeChangeable": true,
         "blueprints": ["CargoRack_Extended"],
         "grade": 1,
         "canApplyExperimental": false,
@@ -282,7 +282,7 @@
       "mercCoin": 550,
       "preEngineered": {
         "reengineerable": false,
-        "gradeChangeable": false,
+        "gradeChangeable": true,
         "blueprints": ["CargoRack_Extended"],
         "grade": 1,
         "canApplyExperimental": false,

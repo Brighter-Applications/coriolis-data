@@ -361,7 +361,7 @@
       "mount": "G",
       "preEngineered": {
         "reengineerable": false,
-        "gradeChangeable": false,
+        "gradeChangeable": true,
         "blueprints": ["Weapon_DoubleScreaming"],
         "grade": 1,
         "canApplyExperimental": false,
@@ -407,7 +407,7 @@
       "mount": "G",
       "preEngineered": {
         "reengineerable": false,
-        "gradeChangeable": false,
+        "gradeChangeable": true,
         "blueprints": ["Weapon_DoubleScreaming"],
         "grade": 1,
         "canApplyExperimental": false,
