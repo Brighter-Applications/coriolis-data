@@ -368,8 +368,8 @@
       "mount": "F",
       "preEngineered": {
         "reengineerable": false,
-        "gradeChangeable": false,
-        "blueprints": ["Weapon_LockdownSeekerMedium"],
+        "gradeChangeable": true,
+        "blueprints": ["Weapon_LockdownSeeker"],
         "grade": 1,
         "canApplyExperimental": false,
         "experimentalEffects": ["special_fsd_interrupt"],
@@ -410,8 +410,8 @@
       "mount": "F",
       "preEngineered": {
         "reengineerable": false,
-        "gradeChangeable": false,
-        "blueprints": ["Weapon_LockdownSeekerLarge"],
+        "gradeChangeable": true,
+        "blueprints": ["Weapon_LockdownSeeker"],
         "grade": 1,
         "canApplyExperimental": false,
         "experimentalEffects": ["special_fsd_interrupt"],
@@ -454,7 +454,7 @@
       "mount": "F",
       "preEngineered": {
         "reengineerable": false,
-        "gradeChangeable": false,
+        "gradeChangeable": true,
         "blueprints": ["Weapon_LightweightThermalSeeker"],
         "grade": 1,
         "canApplyExperimental": false,
@@ -498,7 +498,7 @@
       "mount": "F",
       "preEngineered": {
         "reengineerable": false,
-        "gradeChangeable": false,
+        "gradeChangeable": true,
         "blueprints": ["Weapon_DragSeeker"],
         "grade": 1,
         "canApplyExperimental": false,

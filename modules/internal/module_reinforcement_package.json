@@ -164,7 +164,7 @@
       "rating": "D",
       "preEngineered": {
         "reengineerable": false,
-        "gradeChangeable": false,
+        "gradeChangeable": true,
         "blueprints": ["MRP_HeavyDuty"],
         "grade": 1,
         "canApplyExperimental": false,

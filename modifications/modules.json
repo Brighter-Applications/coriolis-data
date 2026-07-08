@@ -4242,6 +4242,13 @@
     "blueprints": {
     },
     "modifications": [
+      "integrity",
+      "power",
+      "damage",
+      "distdraw",
+      "thermload",
+      "range",
+      "falloff"
     ]
   },
   "mr": {
@@ -4800,6 +4807,9 @@
     "blueprints": {
     },
     "modifications": [
+      "mass",
+      "integrity",
+      "protection"
     ]
   },
   "nl": {
@@ -8584,6 +8594,13 @@
     "blueprints": {
     },
     "modifications": [
+      "integrity",
+      "power",
+      "distdraw",
+      "thermload",
+      "range",
+      "shotspeed",
+      "falloff"
     ]
   },
   "mh": {

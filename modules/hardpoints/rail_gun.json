@@ -169,7 +169,7 @@
       "mount": "F",
       "preEngineered": {
         "reengineerable": false,
-        "gradeChangeable": false,
+        "gradeChangeable": true,
         "blueprints": ["Weapon_EnduringFeedback"],
         "grade": 1,
         "canApplyExperimental": false,

@@ -52,7 +52,7 @@
       "rating": "I",
       "preEngineered": {
         "reengineerable": false,
-        "gradeChangeable": false,
+        "gradeChangeable": true,
         "blueprints": ["Sensor_LongRangeDSS"],
         "grade": 1,
         "canApplyExperimental": false,

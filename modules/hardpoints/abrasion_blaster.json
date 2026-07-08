@@ -126,7 +126,7 @@
       "mount": "F",
       "preEngineered": {
         "reengineerable": false,
-        "gradeChangeable": false,
+        "gradeChangeable": true,
         "blueprints": ["Weapon_FarReaching"],
         "grade": 1,
         "canApplyExperimental": false,
