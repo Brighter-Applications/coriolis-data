@@ -19,6 +19,7 @@
       "masslock": 16,
       "pipSpeed": 0.17307692307692,
       "fighterHangars": true,
+      "vesselHangarsMkII": true,
       "pitch": 25,
       "roll": 37.5,
       "yaw": 22,
