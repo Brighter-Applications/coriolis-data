@@ -224,7 +224,18 @@
         "grade": 1,
         "experimentalEffects": ["special_super_penetrator_cooled"],
         "canApplyExperimental": true,
-        "description": "This module has been pre-engineered with Grade 1 LongRange and Focused modifications with Super Penetrator Experimental."
+        "description": "This module has been pre-engineered with Grade 1 LongRange and Focused modifications with Super Penetrator Experimental.",
+        "modifiers": {
+          "mass": 0.50,
+          "power": 1.30,
+          "distdraw": 4.277,
+          "thermload": 15.50,
+          "piercing": 1.02,
+          "range": 0.765,
+          "shotspeed": 4.558,
+          "jitter": -3.5,
+          "falloff": -0.118
+        }
       },
       "name": "Shard (LR+Foc+SPen)",
       "eddbID": 0,
@@ -268,7 +279,18 @@
         "grade": 1,
         "experimentalEffects": ["special_super_penetrator_cooled"],
         "canApplyExperimental": true,
-        "description": "This module has been pre-engineered with Grade 1 LongRange and Focused modifications with Super Penetrator Experimental."
+        "description": "This module has been pre-engineered with Grade 1 LongRange and Focused modifications with Super Penetrator Experimental.",
+        "modifiers": {
+          "mass": 0.50,
+          "power": 1.30,
+          "distdraw": 4.277,
+          "thermload": 15.50,
+          "piercing": 1.02,
+          "range": 0.765,
+          "shotspeed": 4.558,
+          "jitter": -3.5,
+          "falloff": -0.118
+        }
       },
       "name": "Shard (LR+Foc+SPen)",
       "cost": 0,

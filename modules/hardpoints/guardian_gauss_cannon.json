@@ -31,6 +31,10 @@
       "reload": 1,
       "thermload": 15,
       "symbol": "Hpt_Guardian_GaussCannon_Fixed_Small",
+      "damagedist": {
+        "T": 0.5,
+        "AX": 0.5
+      },
       "requirements": {
         "horizons": true
       }
@@ -64,7 +68,17 @@
         "grade": 1,
         "experimentalEffects": [],
         "canApplyExperimental": false,
-        "description": "This module has been pre-engineered with Grade 1 High Capacity and Rapid Fire modifications."
+        "description": "This module has been pre-engineered with Grade 1 High Capacity and Rapid Fire modifications.",
+        "modifiers": {
+          "damage": -0.752,
+          "distdraw": -0.75,
+          "thermload": -0.75,
+          "falloff": -0.20,
+          "rof": 3.035,
+          "clip": 3.0,
+          "ammo": 4.0,
+          "breachdmg": -0.752
+        }
       },
       "name": "Gauss (HCap + RFire)",
       "piercing": 140,
@@ -144,7 +158,17 @@
         "grade": 1,
         "experimentalEffects": [],
         "canApplyExperimental": false,
-        "description": "This module has been pre-engineered with Grade 1 High Capacity and Rapid Fire modifications."
+        "description": "This module has been pre-engineered with Grade 1 High Capacity and Rapid Fire modifications.",
+        "modifiers": {
+          "damage": -0.752,
+          "distdraw": -0.75,
+          "thermload": -0.75,
+          "falloff": -0.20,
+          "rof": 3.035,
+          "clip": 3.0,
+          "ammo": 4.0,
+          "breachdmg": -0.752
+        }
       },
       "name": "Gauss (HCap + RFire)",
       "piercing": 140,
