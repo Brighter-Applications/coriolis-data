@@ -227,7 +227,16 @@
         "grade": 1,
         "experimentalEffects": [],
         "canApplyExperimental": false,
-        "description": "This module has been pre-engineered with Grade 1 Overcharged and Focused modifications."
+        "description": "This module has been pre-engineered with Grade 1 Overcharged and Focused modifications.",
+        "modifiers": {
+          "power": 0.324,
+          "damage": 0.66,
+          "thermload": 0.50,
+          "piercing": 0.375,
+          "shotspeed": 4.0,
+          "clip": 0.333,
+          "breachdmg": 0.66
+        }
       },
       "name": "Plasma Charger (OC+Foc)",
       "piercing": 65,
@@ -268,7 +277,16 @@
         "grade": 1,
         "experimentalEffects": [],
         "canApplyExperimental": false,
-        "description": "This module has been pre-engineered with Grade 1 Overcharged and Focused modifications."
+        "description": "This module has been pre-engineered with Grade 1 Overcharged and Focused modifications.",
+        "modifiers": {
+          "power": 0.324,
+          "damage": 0.66,
+          "thermload": 0.50,
+          "piercing": 0.375,
+          "shotspeed": 4.0,
+          "clip": 0.333,
+          "breachdmg": 0.66
+        }
       },
       "name": "Plasma Charger (OC+Foc)",
       "piercing": 80,
