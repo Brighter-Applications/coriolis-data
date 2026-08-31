@@ -1,3 +1,5 @@
+#4.1.2
+  * Fixed MLF for several ships
 #4.0.5
   * Fixed fuelmul for the v1 SCO drive
 
