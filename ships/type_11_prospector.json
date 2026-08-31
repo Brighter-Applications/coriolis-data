@@ -16,7 +16,7 @@
       "baseArmour": 350,
       "hardness": 58,
       "hullMass": 320,
-      "masslock": 16,
+      "masslock": 15,
       "pipSpeed": 0.17307692307692,
       "fighterHangars": true,
       "vesselHangarsMkII": true,
