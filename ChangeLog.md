@@ -1,3 +1,5 @@
+#4.1.4
+  * Fixed GradeChangeable setting on phasing MC's
 #4.1.3
   * Fixed multipliers on increased cap cargo rack blueprint to be more precise
 #4.1.2
