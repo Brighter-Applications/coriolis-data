@@ -400,7 +400,7 @@
       "mount": "F",
       "preEngineered": {
         "reengineerable": false,
-        "gradeChangeable": false,
+        "gradeChangeable": true,
         "blueprints": ["Weapon_HighCapacity", "Weapon_RapidFire"],
         "grade": 1,
         "canApplyExperimental": false,
@@ -443,7 +443,7 @@
       "mount": "F",
       "preEngineered": {
         "reengineerable": false,
-        "gradeChangeable": false,
+        "gradeChangeable": true,
         "blueprints": ["Weapon_RapidPhase"],
         "grade": 1,
         "canApplyExperimental": false,
