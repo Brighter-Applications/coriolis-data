@@ -3034,6 +3034,7 @@
       }
     },
     "modifications": [
+      "hullboost",
       "hullreinforcement",
       "causres",
       "explres",
