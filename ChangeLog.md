@@ -1,3 +1,5 @@
+#4.1.5
+  * More operations weapons and blueprints
 #4.1.4
   * Fixed GradeChangeable setting on phasing MC's
 #4.1.3
