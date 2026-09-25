@@ -1,3 +1,5 @@
+#4.1.8
+  * Add hullboost to HRPs so ship HP is reported correct when Lightweight is applied
 #4.1.7
   * Fixing Mining Volley Repeater Stats
 #4.1.6
