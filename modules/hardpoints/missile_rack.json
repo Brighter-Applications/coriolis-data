@@ -514,6 +514,49 @@
       "shotspeed": 625,
       "thermload": 3.6,
       "symbol": "Hpt_BasicMissileRack_Fixed_Medium"
+    },
+    {
+      "ammo": 36,
+      "breachdmg": 16,
+      "breachmax": 0,
+      "breachmin": 0,
+      "class": 3,
+      "clip": 6,
+      "cost": 0,
+      "damage": 40,
+      "damagedist": {
+        "E": 1
+      },
+      "distdraw": 0.24,
+      "fireint": 3,
+      "grp": "mr",
+      "edId": "129046190",
+      "id": "8S",
+      "integrity": 64,
+      "mass": 8,
+      "mercModule": true,
+      "mercCoin": 800,
+      "missile": "S",
+      "special": "Exposing Seeker",
+      "mount": "F",
+      "preEngineered": {
+        "reengineerable": false,
+        "gradeChangeable": true,
+        "blueprints": ["Weapon_ExposingSeeker"],
+        "grade": 1,
+        "canApplyExperimental": false,
+        "experimentalEffects": ["special_drag"],
+        "description": "Pre-engineered Exposing Seeker Missile Rack with Drag effect.",
+        "availability": "MercCoin"
+      },
+      "name": "Lockdown Seeker",
+      "piercing": 60,
+      "power": 1.62,
+      "rating": "A",
+      "reload": 12,
+      "shotspeed": 625,
+      "thermload": 3.6,
+      "symbol": "Hpt_BasicMissileRack_Fixed_Large"
     }
   ]
 }
