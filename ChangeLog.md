@@ -1,3 +1,5 @@
+#4.1.7
+  * Fixing Mining Volley Repeater Stats
 #4.1.6
   * Fix MkII Hangar Id's
 #4.1.5
