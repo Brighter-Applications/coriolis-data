@@ -8,7 +8,6 @@
       "class": 1,
       "cost": 9700,
       "damage": 4,
-      "chargetime": 0,
       "damagedist": {
         "T": 1
       },
@@ -39,7 +38,6 @@
       "class": 1,
       "cost": 27480,
       "damage": 4,
-      "chargetime": 0,
       "damagedist": {
         "T": 1
       },
@@ -70,7 +68,6 @@
       "class": 1,
       "cost": 9700,
       "damage": 4,
-      "chargetime": 0,
       "damagedist": {
         "T": 1
       },
