@@ -18,6 +18,7 @@
       "hullMass": 350,
       "masslock": 12,
       "heatCapacity": 304,
+      "heatDissipation": 46.80,
       "pipSpeed": 0.1,
       "pitch": 40,
       "roll": 80,
