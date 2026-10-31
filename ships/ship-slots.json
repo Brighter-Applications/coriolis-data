@@ -1799,7 +1799,7 @@
         {"class": 3, "name": "Slot07_Size2"},
         {"class": 3, "name": "Slot08_Size2"},
         {"class": 2, "name": "Slot09_Size2"},
-        {"class": 1, "name": "Slot10_Size1"},
+        {"class": 1, "name": "Slot09_Size1"},
         {"class": 1, "eligible": {
             "pas": 1
           }, "name": "PlanetaryApproachSuite"}
@@ -1823,9 +1823,9 @@
         {"class": 2, "name": "MediumHardpoint1"},
         {"class": 1, "name": "SmallHardpoint1"},
         {"class": 1, "name": "SmallHardpoint2"},
-        {"class": 1, "name": "SmallHardpoint3"},
         {"class": 1, "name": "SmallHardpoint4"},
         {"class": 1, "name": "SmallHardpoint5"},
+        {"class": 1, "name": "SmallHardpoint6"},
         {"class": 0, "name": "TinyHardpoint1"},
         {"class": 0, "name": "TinyHardpoint2"},
         {"class": 0, "name": "TinyHardpoint3"},
