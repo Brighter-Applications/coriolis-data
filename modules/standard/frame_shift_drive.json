@@ -16,6 +16,7 @@
       "power": 0.48,
       "rating": "E",
       "symbol": "Int_Hyperdrive_Size7_Class1",
+      "thermload": 43,
       "ukName": "FSD",
       "ukDiscript": "Device that allows supercruise travel and hyperspace jumps between star systems."
     },
@@ -35,6 +36,7 @@
       "power": 0.54,
       "rating": "D",
       "symbol": "Int_Hyperdrive_Size7_Class2",
+      "thermload": 43,
       "ukName": "FSD",
       "ukDiscript": "Device that allows supercruise travel and hyperspace jumps between star systems."
     },
@@ -54,6 +56,7 @@
       "power": 0.6,
       "rating": "C",
       "symbol": "Int_Hyperdrive_Size7_Class3",
+      "thermload": 43,
       "ukName": "FSD",
       "ukDiscript": "Device that allows supercruise travel and hyperspace jumps between star systems."
     },
@@ -73,6 +76,7 @@
       "power": 0.75,
       "rating": "B",
       "symbol": "Int_Hyperdrive_Size7_Class4",
+      "thermload": 43,
       "ukName": "FSD",
       "ukDiscript": "Device that allows supercruise travel and hyperspace jumps between star systems."
     },
@@ -92,6 +96,7 @@
       "power": 0.9,
       "rating": "A",
       "symbol": "Int_Hyperdrive_Size7_Class5",
+      "thermload": 43,
       "ukName": "FSD",
       "ukDiscript": "Device that allows supercruise travel and hyperspace jumps between star systems."
     },
@@ -111,6 +116,7 @@
       "power": 0.4,
       "rating": "E",
       "symbol": "Int_Hyperdrive_Size6_Class1",
+      "thermload": 37,
       "ukName": "FSD",
       "ukDiscript": "Device that allows supercruise travel and hyperspace jumps between star systems."
     },
@@ -130,6 +136,7 @@
       "power": 0.45,
       "rating": "D",
       "symbol": "Int_Hyperdrive_Size6_Class2",
+      "thermload": 37,
       "ukName": "FSD",
       "ukDiscript": "Device that allows supercruise travel and hyperspace jumps between star systems."
     },
@@ -149,6 +156,7 @@
       "power": 0.5,
       "rating": "C",
       "symbol": "Int_Hyperdrive_Size6_Class3",
+      "thermload": 37,
       "ukName": "FSD",
       "ukDiscript": "Device that allows supercruise travel and hyperspace jumps between star systems."
     },
@@ -168,6 +176,7 @@
       "power": 0.63,
       "rating": "B",
       "symbol": "Int_Hyperdrive_Size6_Class4",
+      "thermload": 37,
       "ukName": "FSD",
       "ukDiscript": "Device that allows supercruise travel and hyperspace jumps between star systems."
     },
@@ -187,6 +196,7 @@
       "power": 0.75,
       "rating": "A",
       "symbol": "Int_Hyperdrive_Size6_Class5",
+      "thermload": 37,
       "ukName": "FSD",
       "ukDiscript": "Device that allows supercruise travel and hyperspace jumps between star systems."
     },
@@ -206,6 +216,7 @@
       "power": 0.32,
       "rating": "E",
       "symbol": "Int_Hyperdrive_Size5_Class1",
+      "thermload": 27,
       "ukName": "FSD",
       "ukDiscript": "Device that allows supercruise travel and hyperspace jumps between star systems."
     },
@@ -225,6 +236,7 @@
       "power": 0.36,
       "rating": "D",
       "symbol": "Int_Hyperdrive_Size5_Class2",
+      "thermload": 27,
       "ukName": "FSD",
       "ukDiscript": "Device that allows supercruise travel and hyperspace jumps between star systems."
     },
@@ -244,6 +256,7 @@
       "power": 0.4,
       "rating": "C",
       "symbol": "Int_Hyperdrive_Size5_Class3",
+      "thermload": 27,
       "ukName": "FSD",
       "ukDiscript": "Device that allows supercruise travel and hyperspace jumps between star systems."
     },
@@ -263,6 +276,7 @@
       "power": 0.5,
       "rating": "B",
       "symbol": "Int_Hyperdrive_Size5_Class4",
+      "thermload": 27,
       "ukName": "FSD",
       "ukDiscript": "Device that allows supercruise travel and hyperspace jumps between star systems."
     },
@@ -282,6 +296,7 @@
       "power": 0.6,
       "rating": "A",
       "symbol": "Int_Hyperdrive_Size5_Class5",
+      "thermload": 27,
       "ukName": "FSD",
       "ukDiscript": "Device that allows supercruise travel and hyperspace jumps between star systems."
     },
@@ -299,6 +314,7 @@
       "power": 0.6,
       "rating": "A",
       "symbol": "Int_Hyperdrive_Size5_Class5",
+      "thermload": 27,
       "ukName": "V1 Frame Shift Drive",
       "name": "FSD PreEng (V1)",
       "ukDiscript": "A pre-engineered Frame Shift Drive that combines increased range with a faster boot sequence. This module cannot be further engineered, but an experimental effect can be applied.",
@@ -327,6 +343,7 @@
       "power": 0.24,
       "rating": "E",
       "symbol": "Int_Hyperdrive_Size4_Class1",
+      "thermload": 18,
       "ukName": "FSD",
       "ukDiscript": "Device that allows supercruise travel and hyperspace jumps between star systems."
     },
@@ -346,6 +363,7 @@
       "power": 0.27,
       "rating": "D",
       "symbol": "Int_Hyperdrive_Size4_Class2",
+      "thermload": 18,
       "ukName": "FSD",
       "ukDiscript": "Device that allows supercruise travel and hyperspace jumps between star systems."
     },
@@ -365,6 +383,7 @@
       "power": 0.3,
       "rating": "C",
       "symbol": "Int_Hyperdrive_Size4_Class3",
+      "thermload": 18,
       "ukName": "FSD",
       "ukDiscript": "Device that allows supercruise travel and hyperspace jumps between star systems."
     },
@@ -384,6 +403,7 @@
       "power": 0.38,
       "rating": "B",
       "symbol": "Int_Hyperdrive_Size4_Class4",
+      "thermload": 18,
       "ukName": "FSD",
       "ukDiscript": "Device that allows supercruise travel and hyperspace jumps between star systems."
     },
@@ -403,6 +423,7 @@
       "power": 0.45,
       "rating": "A",
       "symbol": "Int_Hyperdrive_Size4_Class5",
+      "thermload": 18,
       "ukName": "FSD",
       "ukDiscript": "Device that allows supercruise travel and hyperspace jumps between star systems."
     },
@@ -422,6 +443,7 @@
       "power": 0.24,
       "rating": "E",
       "symbol": "Int_Hyperdrive_Size3_Class1",
+      "thermload": 14,
       "ukName": "FSD",
       "ukDiscript": "Device that allows supercruise travel and hyperspace jumps between star systems."
     },
@@ -441,6 +463,7 @@
       "power": 0.27,
       "rating": "D",
       "symbol": "Int_Hyperdrive_Size3_Class2",
+      "thermload": 14,
       "ukName": "FSD",
       "ukDiscript": "Device that allows supercruise travel and hyperspace jumps between star systems."
     },
@@ -460,6 +483,7 @@
       "power": 0.3,
       "rating": "C",
       "symbol": "Int_Hyperdrive_Size3_Class3",
+      "thermload": 14,
       "ukName": "FSD",
       "ukDiscript": "Device that allows supercruise travel and hyperspace jumps between star systems."
     },
@@ -479,6 +503,7 @@
       "power": 0.38,
       "rating": "B",
       "symbol": "Int_Hyperdrive_Size3_Class4",
+      "thermload": 14,
       "ukName": "FSD",
       "ukDiscript": "Device that allows supercruise travel and hyperspace jumps between star systems."
     },
@@ -498,6 +523,7 @@
       "power": 0.45,
       "rating": "A",
       "symbol": "Int_Hyperdrive_Size3_Class5",
+      "thermload": 14,
       "ukName": "FSD",
       "ukDiscript": "Device that allows supercruise travel and hyperspace jumps between star systems."
     },
@@ -517,6 +543,7 @@
       "power": 0.16,
       "rating": "E",
       "symbol": "Int_Hyperdrive_Size2_Class1",
+      "thermload": 10,
       "ukName": "FSD",
       "ukDiscript": "Device that allows supercruise travel and hyperspace jumps between star systems."
     },
@@ -536,6 +563,7 @@
       "power": 0.18,
       "rating": "D",
       "symbol": "Int_Hyperdrive_Size2_Class2",
+      "thermload": 10,
       "ukName": "FSD",
       "ukDiscript": "Device that allows supercruise travel and hyperspace jumps between star systems."
     },
@@ -555,6 +583,7 @@
       "power": 0.2,
       "rating": "C",
       "symbol": "Int_Hyperdrive_Size2_Class3",
+      "thermload": 10,
       "ukName": "FSD",
       "ukDiscript": "Device that allows supercruise travel and hyperspace jumps between star systems."
     },
@@ -574,6 +603,7 @@
       "power": 0.25,
       "rating": "B",
       "symbol": "Int_Hyperdrive_Size2_Class4",
+      "thermload": 10,
       "ukName": "FSD",
       "ukDiscript": "Device that allows supercruise travel and hyperspace jumps between star systems."
     },
@@ -593,12 +623,14 @@
       "power": 0.3,
       "rating": "A",
       "symbol": "Int_Hyperdrive_Size2_Class5",
+      "thermload": 10,
       "ukName": "FSD",
       "ukDiscript": "Device that allows supercruise travel and hyperspace jumps between star systems."
     },
     {
       "class": 8,
       "cost": 82042060,
+      "edID": 129038968,
       "boot": 10,
       "fuelmul": 0.011,
       "fuelpower": 2.5025,
@@ -611,8 +643,10 @@
       "optmass": 4670,
       "power": 1.05,
       "rating": "A",
+      "ship": ["explorer_nx"],
       "ukName": "MkII Frame Shift Drive (SCO)",
       "symbol": "Int_Hyperdrive_Overcharge_Size8_Class5_Overchargebooster_MkII",
+      "thermload": 50,
       "ukDiscript": "Faster-than-light capable ship drive, featuring experimental overcharge capabilities, necessary for supercruise travel and hyperspace jumps between star systems."
     },
     {
@@ -631,6 +665,7 @@
       "power": 1.05,
       "rating": "A",
       "symbol": "Int_Hyperdrive_Overcharge_Size8_Class5",
+      "thermload": 50,
       "ukName": "FSD",
       "ukDiscript": "Faster-than-light capable ship drive, featuring experimental overcharge capabilities, necessary for supercruise travel and hyperspace jumps between star systems."
     },
@@ -649,6 +684,7 @@
       "power": 0.88,
       "rating": "B",
       "symbol": "Int_Hyperdrive_Overcharge_Size8_Class4",
+      "thermload": 50,
       "ukName": "FSD",
       "ukDiscript": "Faster-than-light capable ship drive, featuring experimental overcharge capabilities, necessary for supercruise travel and hyperspace jumps between star systems."
     },
@@ -667,6 +703,7 @@
       "power": 0.88,
       "rating": "C",
       "symbol": "Int_Hyperdrive_Overcharge_Size8_Class3",
+      "thermload": 50,
       "ukName": "FSD",
       "ukDiscript": "Faster-than-light capable ship drive, featuring experimental overcharge capabilities, necessary for supercruise travel and hyperspace jumps between star systems."
     },
@@ -685,6 +722,7 @@
       "power": 0.88,
       "rating": "D",
       "symbol": "Int_Hyperdrive_Overcharge_Size8_Class2",
+      "thermload": 50,
       "ukName": "FSD",
       "ukDiscript": "Faster-than-light capable ship drive, featuring experimental overcharge capabilities, necessary for supercruise travel and hyperspace jumps between star systems."
     },
@@ -703,6 +741,7 @@
       "power": 0.7,
       "rating": "E",
       "symbol": "Int_Hyperdrive_Overcharge_Size8_Class1",
+      "thermload": 50,
       "ukName": "FSD",
       "ukDiscript": "Faster-than-light capable ship drive, featuring experimental overcharge capabilities, necessary for supercruise travel and hyperspace jumps between star systems."
     },
@@ -722,6 +761,7 @@
       "power": 0.9,
       "rating": "A",
       "symbol": "Int_Hyperdrive_Overcharge_Size7_Class5",
+      "thermload": 43,
       "ukName": "FSD",
       "ukDiscript": "Faster-than-light capable ship drive, featuring experimental overcharge capabilities, necessary for supercruise travel and hyperspace jumps between star systems."
     },
@@ -741,6 +781,7 @@
       "power": 0.75,
       "rating": "B",
       "symbol": "Int_Hyperdrive_Overcharge_Size7_Class4",
+      "thermload": 43,
       "ukName": "FSD",
       "ukDiscript": "Faster-than-light capable ship drive, featuring experimental overcharge capabilities, necessary for supercruise travel and hyperspace jumps between star systems."
     },
@@ -760,6 +801,7 @@
       "power": 0.75,
       "rating": "C",
       "symbol": "Int_Hyperdrive_Overcharge_Size7_Class3",
+      "thermload": 43,
       "ukName": "FSD",
       "ukDiscript": "Faster-than-light capable ship drive, featuring experimental overcharge capabilities, necessary for supercruise travel and hyperspace jumps between star systems."
     },
@@ -772,13 +814,14 @@
       "grp": "fsd",
       "id": "FC",
       "name": "Frame Shift Drive (SCO)",
-      "integrity": 2700,
+      "integrity": 150,
       "mass": 32,
       "maxfuel": 12.8,
       "optmass": 2700,
       "power": 0.75,
       "rating": "D",
       "symbol": "Int_Hyperdrive_Overcharge_Size7_Class2",
+      "thermload": 43,
       "ukName": "FSD",
       "ukDiscript": "Faster-than-light capable ship drive, featuring experimental overcharge capabilities, necessary for supercruise travel and hyperspace jumps between star systems."
     },
@@ -798,6 +841,7 @@
       "power": 0.6,
       "rating": "E",
       "symbol": "Int_Hyperdrive_Overcharge_Size7_Class1",
+      "thermload": 43,
       "ukName": "FSD",
       "ukDiscript": "Faster-than-light capable ship drive, featuring experimental overcharge capabilities, necessary for supercruise travel and hyperspace jumps between star systems."
     },
@@ -816,6 +860,7 @@
       "power": 0.9,
       "rating": "A",
       "symbol": "Int_Hyperdrive_Overcharge_Size7_Class5",
+      "thermload": 43,
       "ukName": "V1 Frame Shift Drive (SCO)",
       "preEngineered": {
         "reengineerable": false,
@@ -843,6 +888,7 @@
       "power": 0.75,
       "rating": "A",
       "symbol": "Int_Hyperdrive_Overcharge_Size6_Class5",
+      "thermload": 37,
       "ukName": "FSD",
       "ukDiscript": "Faster-than-light capable ship drive, featuring experimental overcharge capabilities, necessary for supercruise travel and hyperspace jumps between star systems."
     },
@@ -862,6 +908,7 @@
       "power": 0.63,
       "rating": "B",
       "symbol": "Int_Hyperdrive_Overcharge_Size6_Class4",
+      "thermload": 37,
       "ukName": "FSD",
       "ukDiscript": "Faster-than-light capable ship drive, featuring experimental overcharge capabilities, necessary for supercruise travel and hyperspace jumps between star systems."
     },
@@ -881,6 +928,7 @@
       "power": 0.63,
       "rating": "C",
       "symbol": "Int_Hyperdrive_Overcharge_Size6_Class3",
+      "thermload": 37,
       "ukName": "FSD",
       "ukDiscript": "Faster-than-light capable ship drive, featuring experimental overcharge capabilities, necessary for supercruise travel and hyperspace jumps between star systems."
     },
@@ -900,6 +948,7 @@
       "power": 0.63,
       "rating": "D",
       "symbol": "Int_Hyperdrive_Overcharge_Size6_Class2",
+      "thermload": 37,
       "ukName": "FSD",
       "ukDiscript": "Faster-than-light capable ship drive, featuring experimental overcharge capabilities, necessary for supercruise travel and hyperspace jumps between star systems."
     },
@@ -919,6 +968,7 @@
       "power": 0.5,
       "rating": "E",
       "symbol": "Int_Hyperdrive_Overcharge_Size6_Class1",
+      "thermload": 37,
       "ukName": "FSD",
       "ukDiscript": "Faster-than-light capable ship drive, featuring experimental overcharge capabilities, necessary for supercruise travel and hyperspace jumps between star systems."
     },
@@ -937,6 +987,7 @@
       "power": 0.75,
       "rating": "A",
       "symbol": "Int_Hyperdrive_Overcharge_Size6_Class5",
+      "thermload": 37,
       "ukName": "Frame Shift Drive (SCO) V1",
       "preEngineered": {
         "reengineerable": false,
@@ -964,6 +1015,7 @@
       "power": 0.6,
       "rating": "A",
       "symbol": "Int_Hyperdrive_Overcharge_Size5_Class5",
+      "thermload": 27,
       "ukName": "FSD",
       "ukDiscript": "Faster-than-light capable ship drive, featuring experimental overcharge capabilities, necessary for supercruise travel and hyperspace jumps between star systems."
     },
@@ -983,6 +1035,7 @@
       "power": 0.5,
       "rating": "B",
       "symbol": "Int_Hyperdrive_Overcharge_Size5_Class4",
+      "thermload": 27,
       "ukName": "FSD",
       "ukDiscript": "Faster-than-light capable ship drive, featuring experimental overcharge capabilities, necessary for supercruise travel and hyperspace jumps between star systems."
     },
@@ -1002,6 +1055,7 @@
       "power": 0.5,
       "rating": "C",
       "symbol": "Int_Hyperdrive_Overcharge_Size5_Class3",
+      "thermload": 27,
       "ukName": "FSD",
       "ukDiscript": "Faster-than-light capable ship drive, featuring experimental overcharge capabilities, necessary for supercruise travel and hyperspace jumps between star systems."
     },
@@ -1021,6 +1075,7 @@
       "power": 0.5,
       "rating": "D",
       "symbol": "Int_Hyperdrive_Overcharge_Size5_Class2",
+      "thermload": 27,
       "ukName": "FSD",
       "ukDiscript": "Faster-than-light capable ship drive, featuring experimental overcharge capabilities, necessary for supercruise travel and hyperspace jumps between star systems."
     },
@@ -1040,13 +1095,14 @@
       "power": 0.45,
       "rating": "E",
       "symbol": "Int_Hyperdrive_Overcharge_Size5_Class1",
+      "thermload": 27,
       "ukName": "FSD",
       "ukDiscript": "Faster-than-light capable ship drive, featuring experimental overcharge capabilities, necessary for supercruise travel and hyperspace jumps between star systems."
     },
     {
       "class": 5,
       "boot": 2,
-      "fuelmul": 0.012,
+      "fuelmul": 0.013,
       "fuelpower": 2.45,
       "grp": "fsd",
       "id": "5R",
@@ -1058,6 +1114,7 @@
       "power": 0.6,
       "rating": "A",
       "symbol": "Int_Hyperdrive_Overcharge_Size5_Class5",
+      "thermload": 27,
       "ukName": "Frame Shift Drive (SCO) V1",
       "preEngineered": {
         "reengineerable": false,
@@ -1085,6 +1142,7 @@
       "power": 0.45,
       "rating": "A",
       "symbol": "Int_Hyperdrive_Overcharge_Size4_Class5",
+      "thermload": 18,
       "ukName": "FSD",
       "ukDiscript": "Faster-than-light capable ship drive, featuring experimental overcharge capabilities, necessary for supercruise travel and hyperspace jumps between star systems."
     },
@@ -1104,6 +1162,7 @@
       "power": 0.38,
       "rating": "B",
       "symbol": "Int_Hyperdrive_Overcharge_Size4_Class4",
+      "thermload": 18,
       "ukName": "FSD",
       "ukDiscript": "Faster-than-light capable ship drive, featuring experimental overcharge capabilities, necessary for supercruise travel and hyperspace jumps between star systems."
     },
@@ -1123,6 +1182,7 @@
       "power": 0.38,
       "rating": "C",
       "symbol": "Int_Hyperdrive_Overcharge_Size4_Class3",
+      "thermload": 18,
       "ukName": "FSD",
       "ukDiscript": "Faster-than-light capable ship drive, featuring experimental overcharge capabilities, necessary for supercruise travel and hyperspace jumps between star systems."
     },
@@ -1142,6 +1202,7 @@
       "power": 0.38,
       "rating": "D",
       "symbol": "Int_Hyperdrive_Overcharge_Size4_Class2",
+      "thermload": 18,
       "ukName": "FSD",
       "ukDiscript": "Faster-than-light capable ship drive, featuring experimental overcharge capabilities, necessary for supercruise travel and hyperspace jumps between star systems."
     },
@@ -1161,6 +1222,7 @@
       "power": 0.3,
       "rating": "E",
       "symbol": "Int_Hyperdrive_Overcharge_Size4_Class1",
+      "thermload": 18,
       "ukName": "FSD",
       "ukDiscript": "Faster-than-light capable ship drive, featuring experimental overcharge capabilities, necessary for supercruise travel and hyperspace jumps between star systems."
     },
@@ -1179,6 +1241,7 @@
       "power": 0.45,
       "rating": "A",
       "symbol": "Int_Hyperdrive_Overcharge_Size4_Class5",
+      "thermload": 18,
       "ukName": "Frame Shift Drive (SCO) V1",
       "preEngineered": {
         "reengineerable": false,
@@ -1206,6 +1269,7 @@
       "power": 0.45,
       "rating": "A",
       "symbol": "Int_Hyperdrive_Overcharge_Size3_Class5",
+      "thermload": 14,
       "ukName": "FSD",
       "ukDiscript": "Faster-than-light capable ship drive, featuring experimental overcharge capabilities, necessary for supercruise travel and hyperspace jumps between star systems."
     },
@@ -1225,6 +1289,7 @@
       "power": 0.38,
       "rating": "B",
       "symbol": "Int_Hyperdrive_Overcharge_Size3_Class4",
+      "thermload": 14,
       "ukName": "FSD",
       "ukDiscript": "Faster-than-light capable ship drive, featuring experimental overcharge capabilities, necessary for supercruise travel and hyperspace jumps between star systems."
     },
@@ -1244,6 +1309,7 @@
       "power": 0.38,
       "rating": "C",
       "symbol": "Int_Hyperdrive_Overcharge_Size3_Class3",
+      "thermload": 14,
       "ukName": "FSD",
       "ukDiscript": "Faster-than-light capable ship drive, featuring experimental overcharge capabilities, necessary for supercruise travel and hyperspace jumps between star systems."
     },
@@ -1263,6 +1329,7 @@
       "power": 0.38,
       "rating": "D",
       "symbol": "Int_Hyperdrive_Overcharge_Size3_Class2",
+      "thermload": 14,
       "ukName": "FSD",
       "ukDiscript": "Faster-than-light capable ship drive, featuring experimental overcharge capabilities, necessary for supercruise travel and hyperspace jumps between star systems."
     },
@@ -1282,6 +1349,7 @@
       "power": 0.3,
       "rating": "E",
       "symbol": "Int_Hyperdrive_Overcharge_Size3_Class1",
+      "thermload": 14,
       "ukName": "FSD",
       "ukDiscript": "Faster-than-light capable ship drive, featuring experimental overcharge capabilities, necessary for supercruise travel and hyperspace jumps between star systems."
     },
@@ -1300,6 +1368,7 @@
       "power": 0.45,
       "rating": "A",
       "symbol": "Int_Hyperdrive_Overcharge_Size3_Class5",
+      "thermload": 14,
       "ukName": "Frame Shift Drive (SCO) V1",
       "preEngineered": {
         "reengineerable": false,
@@ -1327,6 +1396,7 @@
       "power": 0.3,
       "rating": "A",
       "symbol": "Int_Hyperdrive_Overcharge_Size2_Class5",
+      "thermload": 10,
       "ukName": "FSD",
       "ukDiscript": "Faster-than-light capable ship drive, featuring experimental overcharge capabilities, necessary for supercruise travel and hyperspace jumps between star systems."
     },
@@ -1346,6 +1416,7 @@
       "power": 0.25,
       "rating": "B",
       "symbol": "Int_Hyperdrive_Overcharge_Size2_Class4",
+      "thermload": 10,
       "ukName": "FSD",
       "ukDiscript": "Faster-than-light capable ship drive, featuring experimental overcharge capabilities, necessary for supercruise travel and hyperspace jumps between star systems."
     },
@@ -1365,6 +1436,7 @@
       "power": 0.25,
       "rating": "C",
       "symbol": "Int_Hyperdrive_Overcharge_Size2_Class3",
+      "thermload": 10,
       "ukName": "FSD",
       "ukDiscript": "Faster-than-light capable ship drive, featuring experimental overcharge capabilities, necessary for supercruise travel and hyperspace jumps between star systems."
     },
@@ -1384,6 +1456,7 @@
       "power": 0.25,
       "rating": "D",
       "symbol": "Int_Hyperdrive_Overcharge_Size2_Class2",
+      "thermload": 10,
       "ukName": "FSD",
       "ukDiscript": "Faster-than-light capable ship drive, featuring experimental overcharge capabilities, necessary for supercruise travel and hyperspace jumps between star systems."
     },
@@ -1403,6 +1476,7 @@
       "power": 0.2,
       "rating": "E",
       "symbol": "Int_Hyperdrive_Overcharge_Size2_Class1",
+      "thermload": 10,
       "ukName": "FSD",
       "ukDiscript": "Faster-than-light capable ship drive, featuring experimental overcharge capabilities, necessary for supercruise travel and hyperspace jumps between star systems."
     },
@@ -1421,6 +1495,7 @@
       "power": 0.3,
       "rating": "A",
       "symbol": "Int_Hyperdrive_Overcharge_Size2_Class5",
+      "thermload": 10,
       "ukName": "Frame Shift Drive (SCO) V1",
       "preEngineered": {
         "reengineerable": false,
@@ -1448,6 +1523,7 @@
       "power": 0,
       "rating": "Z",
       "symbol": "Int_Missing_Hyperdrive",
+      "thermload": 0,
       "ukName": "Unrecognised Frame Shift Drive",
       "ukDiscript": "Unrecognised Frame Shift Drive"
     }

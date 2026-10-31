@@ -12,8 +12,9 @@
       "minthrust": 40.909,
       "boostInt": 4,
       "heatCapacity": 179,
+      "heatDissipation": 24.55,
       "boostEnergy": 10,
-      "baseShieldStrength": 90,
+      "baseShieldStrength": 125,
       "baseArmour": 180,
       "hardness": 35,
       "hullMass": 155,
@@ -116,6 +117,7 @@
         0
       ],
       "internal": [
+        6,
         5,
         5,
         4,
@@ -151,6 +153,7 @@
         0
       ],
       "internal": [
+        0,
         "03",
         "03",
         "02",

@@ -3,15 +3,17 @@
     {
       "experimental": true,
       "ammo": 80,
-      "breachdmg": 11,
+      "breachdmg": 20,
       "breachmax": 0.4,
       "breachmin": 0.2,
+      "chargetime": 1.2,
       "class": 1,
       "clip": 1,
       "cost": 167250,
-      "damage": 22,
+      "damage": 40,
       "damagedist": {
-        "T": 1
+        "T": 0.5,
+        "AX": 0.5
       },
       "distdraw": 3.8,
       "edID": 128891610,
@@ -30,6 +32,10 @@
       "reload": 1,
       "thermload": 15,
       "symbol": "Hpt_Guardian_GaussCannon_Fixed_Small",
+      "damagedist": {
+        "T": 0.5,
+        "AX": 0.5
+      },
       "requirements": {
         "horizons": true
       }
@@ -37,7 +43,7 @@
     {
       "experimental": true,
       "ammo": 200,
-      "breachdmg": 11,
+      "breachdmg": 20,
       "breachmax": 0.4,
       "breachmin": 0.2,
       "class": 1,
@@ -45,7 +51,8 @@
       "cost": 0,
       "damage": 9.6,
       "damagedist": {
-        "T": 1
+        "T": 0.5,
+        "AX": 0.5
       },
       "distdraw": 3.8,
       "falloff": 1200,
@@ -62,7 +69,17 @@
         "grade": 1,
         "experimentalEffects": [],
         "canApplyExperimental": false,
-        "description": "This module has been pre-engineered with Grade 1 High Capacity and Rapid Fire modifications."
+        "description": "This module has been pre-engineered with Grade 1 High Capacity and Rapid Fire modifications.",
+        "modifiers": {
+          "damage": -0.752,
+          "distdraw": -0.75,
+          "thermload": -0.75,
+          "falloff": -0.20,
+          "rof": 3.035,
+          "clip": 3.0,
+          "ammo": 4.0,
+          "breachdmg": -0.752
+        }
       },
       "name": "Gauss (HCap + RFire)",
       "piercing": 140,
@@ -83,12 +100,14 @@
       "breachmax": 0.4,
       "breachmin": 0.2,
       "burst": 1,
+      "chargetime": 1.2,
       "class": 2,
       "clip": 1,
-      "cost": 543801,
-      "damage": 38.5,
+      "cost": 543800,
+      "damage": 70,
       "damagedist": {
-        "T": 1
+        "T": 0.5,
+        "AX": 0.5
       },
       "distdraw": 7.2,
       "edID": 128833687,
@@ -123,7 +142,8 @@
       "cost": 0,
       "damage": 18.3,
       "damagedist": {
-        "T": 1
+        "T": 0.5,
+        "AX": 0.5
       },
       "distdraw": 7.2,
       "falloff": 1200,
@@ -140,7 +160,17 @@
         "grade": 1,
         "experimentalEffects": [],
         "canApplyExperimental": false,
-        "description": "This module has been pre-engineered with Grade 1 High Capacity and Rapid Fire modifications."
+        "description": "This module has been pre-engineered with Grade 1 High Capacity and Rapid Fire modifications.",
+        "modifiers": {
+          "damage": -0.752,
+          "distdraw": -0.75,
+          "thermload": -0.75,
+          "falloff": -0.20,
+          "rof": 3.035,
+          "clip": 3.0,
+          "ammo": 4.0,
+          "breachdmg": -0.752
+        }
       },
       "name": "Gauss (HCap + RFire)",
       "piercing": 140,
