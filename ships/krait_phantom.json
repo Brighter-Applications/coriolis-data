@@ -12,6 +12,7 @@
       "minthrust": 64.00,
       "boostInt": 4.5,
       "heatCapacity": 300,
+      "heatDissipation": 52.05,
       "boostEnergy": 13,
       "baseShieldStrength": 200,
       "baseArmour": 180,
