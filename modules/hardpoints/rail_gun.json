@@ -153,6 +153,7 @@
       "breachmax": 0.8,
       "breachmin": 0.4,
       "charge": 1.2,
+      "chargetime": 1.2,
       "class": 2,
       "clip": 1,
       "cost": 0,
