@@ -599,6 +599,7 @@
     {
       "class": 8,
       "cost": 82042060,
+      "edID": 129038968,
       "boot": 10,
       "fuelmul": 0.011,
       "fuelpower": 2.5025,
@@ -611,6 +612,7 @@
       "optmass": 4670,
       "power": 1.05,
       "rating": "A",
+      "ship": ["explorer_nx"],
       "ukName": "MkII Frame Shift Drive (SCO)",
       "symbol": "Int_Hyperdrive_Overcharge_Size8_Class5_Overchargebooster_MkII",
       "ukDiscript": "Faster-than-light capable ship drive, featuring experimental overcharge capabilities, necessary for supercruise travel and hyperspace jumps between star systems."
@@ -772,7 +774,7 @@
       "grp": "fsd",
       "id": "FC",
       "name": "Frame Shift Drive (SCO)",
-      "integrity": 2700,
+      "integrity": 150,
       "mass": 32,
       "maxfuel": 12.8,
       "optmass": 2700,
@@ -1046,7 +1048,7 @@
     {
       "class": 5,
       "boot": 2,
-      "fuelmul": 0.012,
+      "fuelmul": 0.013,
       "fuelpower": 2.45,
       "grp": "fsd",
       "id": "5R",
