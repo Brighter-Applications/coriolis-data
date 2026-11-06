@@ -12,6 +12,7 @@
       "boostEnergy": 25,
       "boostInt": 6,
       "heatCapacity": 289,
+      "heatDissipation": 52.15,
       "baseShieldStrength": 275,
       "baseArmour": 350,
       "hardness": 58,

@@ -14,6 +14,7 @@
       "boostInt": 6,
       "baseShieldStrength": 280,
       "heatCapacity": 283,
+      "heatDissipation": 50.85,
       "baseArmour": 280,
       "hardness": 60,
       "hullMass": 950,

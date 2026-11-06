@@ -16,6 +16,7 @@
       "baseArmour": 120,
       "hardness": 40,
       "heatCapacity": 346,
+      "heatDissipation": 48.05,
       "hullMass": 170,
       "masslock": 8,
       "pipSpeed": 0.096153846153846,
