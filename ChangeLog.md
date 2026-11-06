@@ -1,3 +1,5 @@
+#4.1.11
+  * Adding Heat Stats
 #4.1.10
   * Fixing slot names for the T7 and T8
 #4.1.9
