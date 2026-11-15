@@ -1037,7 +1037,7 @@
   },
   "cc": {
     "blueprints": {
-      "CollectionLimpet_LightWeight": {
+      "Misc_LightWeight": {
         "grades": {
           "1": {
             "engineers": [
@@ -1080,7 +1080,7 @@
           }
         }
       },
-      "CollectionLimpet_Reinforced": {
+      "Misc_Reinforced": {
         "grades": {
           "1": {
             "engineers": [
@@ -1123,7 +1123,7 @@
           }
         }
       },
-      "CollectionLimpet_Shielded": {
+      "Misc_Shielded": {
         "grades": {
           "1": {
             "engineers": [
@@ -2581,7 +2581,7 @@
   },
   "fx": {
     "blueprints": {
-      "FuelTransferLimpet_LightWeight": {
+      "Misc_LightWeight": {
         "grades": {
           "1": {
             "engineers": [
@@ -2624,7 +2624,7 @@
           }
         }
       },
-      "FuelTransferLimpet_Reinforced": {
+      "Misc_Reinforced": {
         "grades": {
           "1": {
             "engineers": [
@@ -2667,7 +2667,7 @@
           }
         }
       },
-      "FuelTransferLimpet_Shielded": {
+      "Misc_Shielded": {
         "grades": {
           "1": {
             "engineers": [
@@ -2719,7 +2719,7 @@
   },
   "hb": {
     "blueprints": {
-      "HatchBreakerLimpet_LightWeight": {
+      "Misc_LightWeight": {
         "grades": {
           "1": {
             "engineers": [
@@ -2762,7 +2762,7 @@
           }
         }
       },
-      "HatchBreakerLimpet_Reinforced": {
+      "Misc_Reinforced": {
         "grades": {
           "1": {
             "engineers": [
@@ -2805,7 +2805,7 @@
           }
         }
       },
-      "HatchBreakerLimpet_Shielded": {
+      "Misc_Shielded": {
         "grades": {
           "1": {
             "engineers": [
@@ -5388,7 +5388,7 @@
   },
   "pc": {
     "blueprints": {
-      "ProspectingLimpet_LightWeight": {
+      "Misc_LightWeight": {
         "grades": {
           "1": {
             "engineers": [
@@ -5431,7 +5431,7 @@
           }
         }
       },
-      "ProspectingLimpet_Reinforced": {
+      "Misc_Reinforced": {
         "grades": {
           "1": {
             "engineers": [
@@ -5474,7 +5474,7 @@
           }
         }
       },
-      "ProspectingLimpet_Shielded": {
+      "Misc_Shielded": {
         "grades": {
           "1": {
             "engineers": [
