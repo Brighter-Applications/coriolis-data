@@ -1,3 +1,5 @@
+#4.1.13
+  * Moving PAS to correct slot on Corsair
 #4.1.12
   * Lightweight blueprint rename
 #4.1.11
